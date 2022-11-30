@@ -2,18 +2,20 @@ import logo from './logo.svg';
 import './App.css';
 import Error from './components/Error';
 import Home from './components/Home';
+import { Navbar } from './components/Navbar';
 
 function App() {
   return (
-    <Router>
-      <div>
-        <Navbar />
+    <Navbar />
+    // <Router>
+    //   <div>
+    //     <Navbar/>
 
-        <Routes>
-          <Route path="*" element={<Error />} />
-        </Routes>
-      </div>
-    </Router>
+    //     <Routes>
+    //       <Route path="*" element={<Error />} />
+    //     </Routes>
+    //   </div>
+    // </Router>
   );
 }
 

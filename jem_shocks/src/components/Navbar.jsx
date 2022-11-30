@@ -1,28 +1,24 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { Component } from 'react'
 import './Navbar.css';
 
 export class Navbar extends Component{
     render(){
-        <div>
-            {/* Hacemos que si el usuario le da al logo del navbar, que le lleve a la página de inicio */}
-            <Link className="navbar-brand" to="/">JEM SHÖCKS</Link>
-            <div>
-                <ul className="navbar-nav">
-                    <li>
-                        <Link className="nav-link" to="/">Home</Link>
-                    </li>
-                    <li>
-                        <Link className="nav-link" to="/Tienda">Tienda</Link>
-                    </li>
-                    <li>
-                        <Link className="nav-link" to="/Informacion">Información</Link>
-                    </li>
-                    <li>
-                        <Link className="nav-link" to="/Contacto">Contacto</Link>
-                    </li>
-                </ul>
+
+        return(
+            <div className="Navbar">
+                <nav>
+                    {/* Insertamos el logo de la marca */}
+                    <img src="../images/LOGO.png" alt="JEM SHÖCKS" />
+            
+                    <a href="/">Home</a>
+                    <a href="/">Shop</a>
+                    <a href="/">About</a>
+                    <a href="/">Contact</a>
+                    
+                </nav>
             </div>
-        </div>
+        )
     }
 }
+
+export default Navbar;
