@@ -11,7 +11,7 @@ export class Navbar extends Component{
                         <img src="/images/LOGO.png" alt="test" />
 
                     
-                    <div id=''>
+                    <div id='tabs'>
                         <a href="/">Contact</a>
                         <a href="/">About</a>
                         <a href="/">Shop</a>
@@ -20,6 +20,7 @@ export class Navbar extends Component{
                     
                 </nav>
             </div>
+            
         )
     }
 }
