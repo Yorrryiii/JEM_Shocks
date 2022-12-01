@@ -9,6 +9,7 @@ export class Navbar extends Component{
                 <nav>
                     {/* Insertamos el logo de la marca */}
                         <img src="/images/LOGO.png" alt="test" />
+
                     
                     <div id=''>
                         <a href="/">Contact</a>
