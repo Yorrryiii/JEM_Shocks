@@ -7,12 +7,14 @@ export class Navbar extends Component{
         return(
             <div className="Navbar">
                 <nav>
-                    <img src="../../public/" alt="JEM SHÖCKS" />
-                    <div id='tabs'>
-                        <a href="/">Home</a>
-                        <a href="/">Shop</a>
-                        <a href="/">About</a>
+                    {/* Insertamos el logo de la marca */}
+                        <img src="/images/LOGO.png" alt="test" />
+                    
+                    <div id=''>
                         <a href="/">Contact</a>
+                        <a href="/">About</a>
+                        <a href="/">Shop</a>
+                        <a href="/">Home</a>
                     </div>
                     
                 </nav>
