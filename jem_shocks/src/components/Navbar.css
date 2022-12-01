@@ -2,8 +2,9 @@ nav{
     background-color: #121618;
     height: 70px;
     display: flex;
-    align-items: center;
     font-size: 1.2rem;
+    align-items: center;
+    justify-content: center;
 }
 
 a{
