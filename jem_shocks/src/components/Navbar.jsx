@@ -8,7 +8,9 @@ export class Navbar extends Component{
             <div className="Navbar">
                 <nav>
                     {/* Insertamos el logo de la marca */}
+                    <a classname = "imagen" href="https://google.com">
                     <img src="/images/LOGO.png" alt="test" />
+                    </a>
 
                     <div id='tabs'>
                         <a href="/">Home</a>
