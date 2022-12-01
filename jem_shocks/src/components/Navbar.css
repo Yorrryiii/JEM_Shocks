@@ -14,10 +14,16 @@ a{
     text-decoration: none;
     color: #fff;
 }
+
 img{
     text-align: left;
     height: 50px;
     margin-left: 0px;
     padding-left: 5%;
+}   
 
-}       
+#tabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
