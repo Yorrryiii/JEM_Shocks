@@ -1,2 +1,15 @@
 import React, { Component } from 'react';
-import './About.css';
+import './Shop.css';
+
+export class About extends Component{
+
+    render(){
+        return(
+            <div>
+                
+            </div>
+        )
+    }
+}
+
+export default About;
