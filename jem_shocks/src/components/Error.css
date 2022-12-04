@@ -1,4 +1,10 @@
-/* img {
-  display: block;
-  margin: 0 auto;
-} */
+#error{
+  /* Para alinear la imagen al centro de la pantalla */
+  display: flex;
+  justify-content: center; 
+}
+
+#Error404NotFound {
+  width: 40%;
+  height: 40%;
+}
