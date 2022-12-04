@@ -4,8 +4,8 @@ import './Home.css';
 export class Home extends Component{
     render(){
         return(
-            <div>
-                <p>probando</p>
+            <div id='cuerpo'>
+                <h2>Probando</h2>
             </div>
         )
     }
