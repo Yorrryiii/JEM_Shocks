@@ -6,7 +6,8 @@ export class About extends Component{
     render(){
         return(
             <div>
-                
+                <h1>¿Quiénes somos?</h1>
+
             </div>
         )
     }
