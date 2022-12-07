@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Shop.css';
+import './styles/About.css';
 
 export class About extends Component{
 

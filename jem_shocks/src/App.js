@@ -7,12 +7,14 @@ import Error from './components/Error';
 import Shop from './components/Shop';
 import About from './components/About';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <Router>
       <div>
         <Navbar />
+
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/shop" element={<Shop />} />
@@ -21,6 +23,8 @@ function App() {
 
             <Route path="*" element={<Error />} />
           </Routes>
+
+          <Footer />
       </div>
     </Router>
   );

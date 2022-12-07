@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Error.css';
+import './styles/Error.css';
 
 export class Error extends Component{
     render(){

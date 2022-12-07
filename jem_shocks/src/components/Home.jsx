@@ -1,11 +1,33 @@
 import React, { Component } from 'react'
-import './Home.css';
+import './styles/Home.css';
 
 export class Home extends Component{
     render(){
         return(
             <div id='cuerpo'>
                 <h2>Probando</h2>
+                <h2>Probando</h2>
+                {/* <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2> */}
+
             </div>
         )
     }

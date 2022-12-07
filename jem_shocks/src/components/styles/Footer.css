@@ -1,0 +1,17 @@
+#footer{
+    background-color: #3d3d3d;
+    /* Ponemos un borde en la parte de arriba de color amarillo */
+    border-top: 1px solid #ffdc00;
+}
+
+p{
+    /* Alineamos el texto al centro de la pantalla */
+    text-align: center;
+    /* Ponemos el color de la fuente en color blanco */
+    color: #fff;
+    font-size: 15px;
+    margin: 0px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
