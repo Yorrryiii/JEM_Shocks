@@ -44,6 +44,12 @@
     font-style: italic;
 }
 
+#cuerpo1{
+    /* Ampliamos el tamaño de letra */
+    font-size: 60px;
+    color: #ffc800;
+}
+
 #cuerpo2{
     margin: 20px;
 }

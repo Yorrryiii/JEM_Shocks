@@ -6,7 +6,6 @@ nav{
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid #ffdc00;
-
 }
 
 a{
@@ -29,15 +28,19 @@ img{
     justify-content: center;
     align-items: center;
 }
+
 #home:hover {
     color: #ffc800;
 }
+
 #shop:hover {
     color: #ffc800;
 }
+
 #about:hover {
     color: #ffc800;
 }
+
 #contact:hover {
     color: #ffc800;
 }
