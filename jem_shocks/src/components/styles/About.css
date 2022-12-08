@@ -1,0 +1,25 @@
+#cuerpo{
+    background-image: url(../../../public/images/Fondo.jpg);
+    /* Hacemos translúcida la imagen */
+    background-color: rgba(250, 250, 250, 0.89);
+    background-blend-mode: lighten;
+    /* La imagen se repite */
+    background-repeat: repeat;
+    /* La imagen está fija en la posición de la pantalla */
+    background-attachment: fixed;
+    /* Centramos la imagen */
+    background-position: center center;
+}
+
+#introduccion{
+    /* Centramos el contenido al centro de la página */
+    text-align: center;
+    /* Ponemos un fondo */
+    background-color: #374b56;
+    /* Añadimos un gran padding */
+    padding: 180px ;
+}
+
+h5{
+    
+}
