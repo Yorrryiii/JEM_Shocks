@@ -4,7 +4,9 @@
     background-color: rgba(250, 250, 250, 0.89);
     background-blend-mode: lighten;
     /* La imagen se repite */
-    background-repeat: repeat;
+    background-repeat: no-repeat;
+    /* Hacemos que la imagen ocupe toda la pantalla */
+    background-size: cover;
     /* La imagen está fija en la posición de la pantalla */
     background-attachment: fixed;
     /* Centramos la imagen */
@@ -16,10 +18,32 @@
     text-align: center;
     /* Ponemos un fondo */
     background-color: #374b56;
-    /* Añadimos un gran padding */
-    padding: 180px ;
+    padding: 150px ;
 }
 
-h5{
-    
+#sale{
+    color: #ffdc00;
+    /* Espaciado entre las letras */
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+#aboutus{
+    color: #fff;
+    letter-spacing: 5px;
+    margin: 20px;
+    /* Ampliamos el tamaño de la fuente */
+    font-size: 50px;
+}
+
+#text{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 150px ;
+    font-style: italic;
+}
+
+#cuerpo2{
+    margin: 20px;
 }
