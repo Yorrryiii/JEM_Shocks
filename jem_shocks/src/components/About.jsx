@@ -21,7 +21,7 @@ export class About extends Component {
                     </h2>
                 </div>
 
-                <div className='row center' style={{ marginTop: '50px' }} >
+                <div id='lines' style={{ marginTop: '50px' }} >
                     <hr style={{ color: '#b48608', backgroundColor: '#b48608', height: 3, width: '70%' }} />
                     <hr style={{ color: '#b48608', backgroundColor: '#b48608', height: 3, width: '80%' }} />
                     <hr style={{ color: '#b48608', backgroundColor: '#b48608', height: 3, width: '70%' }} />
