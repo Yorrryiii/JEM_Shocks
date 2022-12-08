@@ -40,16 +40,23 @@
     text-align: center;
     margin-left: 5%;
     margin-right: 5%;
-    padding: 150px ;
+    padding: 100px ;
     font-style: italic;
 }
 
-#cuerpo1{
+#titulo1{
     /* Ampliamos el tamaño de letra */
     font-size: 60px;
     color: #ffc800;
 }
 
-#cuerpo2{
+#cuerpo1{
     margin: 20px;
+}
+
+#titulo2{
+    font-size: 50px;
+    /* Alineamos el texto al centro de la pantalla */
+    text-align: center;
+    padding: 100px;
 }
