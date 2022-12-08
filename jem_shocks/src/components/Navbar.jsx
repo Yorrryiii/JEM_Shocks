@@ -14,10 +14,10 @@ export class Navbar extends Component{
                     </a>
 
                     <div id='tabs'>
-                        <Link to="/">Home</Link>
-                        <Link to="/shop">Shop</Link>
-                        <Link to="/about">About</Link>
-                        <Link to="/contact">Contact</Link>
+                        <Link to="/" id ='home'>Home</Link>
+                        <Link to="/shop" id ='shop'>Shop</Link>
+                        <Link to="/about" id ='about'>About</Link>
+                        <Link to="/contact" id ='contact'>Contact</Link>
                     </div>
 
                     
