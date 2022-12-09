@@ -5,7 +5,11 @@ export class About extends Component {
 
     render() {
         return (
+            
             <div id='cuerpo'>
+                <div id="preloader">
+                    <div id="loader"></div>
+                </div>
                 <div id='introduccion'>
                     <h5 id='sale'>WE SALE CUSTOME SOCKS</h5>
                     <h1 id='aboutus'>About us</h1>
