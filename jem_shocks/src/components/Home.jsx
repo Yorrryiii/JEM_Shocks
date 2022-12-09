@@ -7,7 +7,6 @@ export class Home extends Component{
             <div id='cuerpo'>
                 <h2>Probando</h2>
                 <h2>Probando</h2>
-                {/* <h2>Probando</h2>
                 <h2>Probando</h2>
                 <h2>Probando</h2>
                 <h2>Probando</h2>
@@ -26,7 +25,8 @@ export class Home extends Component{
                 <h2>Probando</h2>
                 <h2>Probando</h2>
                 <h2>Probando</h2>
-                <h2>Probando</h2> */}
+                <h2>Probando</h2>
+                <h2>Probando</h2> 
 
             </div>
         )

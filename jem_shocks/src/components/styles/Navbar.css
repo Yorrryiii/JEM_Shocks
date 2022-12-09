@@ -6,7 +6,11 @@ nav{
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid #ffdc00;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
 }
+
 
 a{
     float: right;
@@ -44,3 +48,4 @@ img{
 #contact:hover {
     color: #ffc800;
 }
+
