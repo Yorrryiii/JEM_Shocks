@@ -47,9 +47,30 @@
     padding: 100px ;
     font-style: italic;
 }
+/* una ralla debajo del titulo pero que aparece muy abajo y no se como cambiarlo*/
+/* #text::after {
+    position: absolute;
+    content: '';
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 50px;
+    height: 2px;
+    background-color: #F28123;
+    margin: 0 auto;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+} */
 
 #titulo1{
     /* Ampliamos el tamaño de letra */
+    padding-top: 80px;
+    font-family: 'Poppins','Open Sans', sans-serif;
+    font-size: 60px;
+    color: #000000;
+}
+#titulo2{
     font-size: 60px;
     color: #ffc800;
 }
@@ -80,10 +101,10 @@
 }
 
 .photos{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
     column-count: 3;
-    column-gap: 20px;
+    column-gap: 30px;
 }
 .single-team-item h4 {
     font-size: 20px;

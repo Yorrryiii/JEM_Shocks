@@ -21,7 +21,7 @@ export class About extends Component {
                 </div>
                 {/*Web Content*/}
                 <div id='text'>
-                    <h1 id='titulo1'>Why JEM Shöcks</h1>
+                    <h1 id='titulo1'>Why <span id ='titulo2'>JEM Söcks</span></h1>
                     <h2 id='cuerpo1'>
                         JEM SHÖCKS it is an online platform where you can buy different types of socks.
                         The shop offers a wide variety of styles, colours and sizes so that customers can choose the pair of socks that best suits their needs.
@@ -37,6 +37,9 @@ export class About extends Component {
                 </div>
 
                 {/*Team*/}
+                <div id='text'>
+                    <h1 id='titulo1'>Our <span id ='titulo2'>Team</span></h1>
+                </div>
                 <div class="photos">
                     <div class="single-team-item">
                         <div class="founders founders-1"></div>
