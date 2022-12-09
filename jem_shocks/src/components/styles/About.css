@@ -24,17 +24,20 @@
 
 #sale{
     color: #ffdc00;
+    font-family:'Open Sans', sans-serif;
     /* Espaciado entre las letras */
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     font-size: 14px;
 }
 
 #aboutus{
     color: #fff;
-    letter-spacing: 5px;
+    letter-spacing: 0px;
     margin: 20px;
-    /* Ampliamos el tamaño de la fuente */
-    font-size: 50px;
+    font-family: 'Poppins','Open Sans', sans-serif;
+    /* Ampliamos el tamaño y el espesor de la fuente */
+    font-size: 60px;
+    font-weight: 900;
 }
 
 #text{
@@ -55,12 +58,65 @@
     margin: 20px;
 }
 
-#titulo2{
-    font-size: 50px;
-    /* Alineamos el texto al centro de la pantalla */
-    text-align: center;
-    padding: 100px;
+.founders {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    background-color: #ddd;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
 }
+/*Fotos de los creadores de la página*/
+.founders-1 {
+    background-image: url(../img/team-2.jpg);
+}
+.founders-2 {
+    background-image: url(../img/team-2.jpg);
+}
+.founders-3 {
+    background-image: url(../img/team-2.jpg);
+}
+
+.photos{
+    margin-left: 20px;
+    margin-right: 20px;
+    column-count: 3;
+    column-gap: 20px;
+}
+.single-team-item h4 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+/*quiero que el oficio aparezca debajo pero no lo he conseguido de momento*/
+.single-team-item h4 span {
+    font-size: 70%;
+    display: block;
+    margin-top: 10px;
+    opacity: 0.7;
+}
+
+ul.social-link-team {
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+ul.social-link-team li a {
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+
 
 /*Preloader*/
 
