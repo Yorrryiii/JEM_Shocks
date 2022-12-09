@@ -11,6 +11,7 @@
     background-attachment: fixed;
     /* Centramos la imagen */
     background-position: center center;
+    margin-top: 30px; /* Add a top margin to avoid navbar overlay */
 }
 
 #introduccion{
