@@ -16,9 +16,7 @@ function App() {
         <Navbar />
 
           <Routes>
-            {/* Redirigir de / a /JEM_SHOCKS */}
             <Route exact path="/" element={<Home />} />
-            
             <Route exact path="/JEM_SHOCKS/" element={<Home />} />
             <Route exact path="/JEM_SHOCKS/shop" element={<Shop />} />
             <Route exact path="/JEM_SHOCKS/about" element={<About />} />
