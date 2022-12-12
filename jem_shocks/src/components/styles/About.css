@@ -19,7 +19,7 @@
     text-align: center;
     /* Ponemos un fondo */
     background-color: #374b56;
-    padding: 150px ;
+    padding: 100px ;
 }
 
 #sale{
@@ -90,6 +90,7 @@
     overflow: hidden;
     margin-bottom: 30px;
 }
+
 /*Fotos de los creadores de la página*/
 .founders-1 {
     background-image: url(../img/team-2.jpg);
@@ -107,6 +108,7 @@
     column-count: 3;
     column-gap: 30px;
 }
+
 .single-team-item h4 {
     font-size: 20px;
     font-weight: 600;
@@ -114,6 +116,11 @@
     margin-top: 15px;
     margin-bottom: 10px;
 }
+<<<<<<< HEAD
+=======
+
+/*quiero que el oficio aparezca debajo pero no lo he conseguido de momento*/
+>>>>>>> c7d2a031929fb6b42bb8cde07b1d840f84afa86a
 .single-team-item h4 span {
     font-size: 70%;
     display: block;

@@ -42,7 +42,7 @@ export class About extends Component {
 
 
                 <div id='text'>
-                    <h1 id='titulo1'>Why <span id ='titulo2'>JEM Söcks</span></h1>
+                    <h1 id='titulo1'>Why <span id ='titulo2'>JEM Shöcks</span></h1>
                     <h2 id='cuerpo1'>
                         JEM SHÖCKS it is an online platform where you can buy different types of socks.
                         The shop offers a wide variety of styles, colours and sizes so that customers can choose the pair of socks that best suits their needs.
@@ -50,6 +50,7 @@ export class About extends Component {
                         The shop then sends the socks directly to the customer through the post.
                     </h2>
                 </div>
+                
                 {/*Lineas divisorias*/}
                 <div className='row center' style={{ marginTop: '50px' }} >
                     <hr style={{ color: '#b48608', backgroundColor: '#b48608', height: 3, width: '70%' }} />
