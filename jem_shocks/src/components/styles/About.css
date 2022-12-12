@@ -26,7 +26,7 @@
     color: #ffdc00;
     font-family:'Open Sans', sans-serif;
     /* Espaciado entre las letras */
-    letter-spacing: 5px;
+    letter-spacing: 6px;
     font-size: 14px;
 }
 
@@ -47,6 +47,7 @@
     padding: 100px ;
     font-style: italic;
 }
+
 /* una ralla debajo del titulo pero que aparece muy abajo y no se como cambiarlo*/
 /* #text::after {
     position: absolute;
@@ -113,7 +114,6 @@
     margin-top: 15px;
     margin-bottom: 10px;
 }
-/*quiero que el oficio aparezca debajo pero no lo he conseguido de momento*/
 .single-team-item h4 span {
     font-size: 70%;
     display: block;
@@ -136,6 +136,27 @@ ul.social-link-team li a {
     -o-transition: 0.3s;
     transition: 0.3s;
 }
+#content{
+    column-count: 2;
+    column-gap: 30px;
+}
+.features{
+    margin-left: 80px;
+    margin-right: 80px;
+    display: block;
+    line-height: 22px;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+.features-title {
+    font-size: 15px;
+    color: #000000;
+    font-weight: 700;
+}
+.features-content {
+    color: #000000;
+}
+
 
 
 

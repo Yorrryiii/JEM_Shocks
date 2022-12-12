@@ -16,10 +16,31 @@ export class About extends Component {
                 </div>
                 {/*Header*/}
                 <div id='introduccion'>
-                    <h5 id='sale'>WE SALE CUSTOME SOCKS</h5>
+                    <h5 id='sale'>WE SALE CUSTOM SOCKS</h5>
                     <h1 id='aboutus'>About Us</h1>
                 </div>
                 {/*Web Content*/}
+
+                <div id='content'>
+                    <div class ='features'>
+                     <h3 class = 'features-title'>Custom made</h3>
+                     <p class = 'features-content'>probando probando custom bla bla bla bla bla bla</p>
+                    </div>
+                    <div class ='features'>
+                     <h3 class = 'features-title'>Custom made</h3>
+                     <p class = 'features-content'>probando probando custom bla bla bla bla bla bla</p>
+                    </div>
+                    <div class ='features'>
+                     <h3 class = 'features-title'>Custom made</h3>
+                     <p class = 'features-content'>probando probando custom bla bla bla bla bla bla</p>
+                    </div>
+                    <div class ='features'>
+                     <h3 class = 'features-title'>Custom made</h3>
+                     <p class = 'features-content'>probando probando custom bla bla bla bla bla bla</p>
+                    </div>
+                </div>
+
+
                 <div id='text'>
                     <h1 id='titulo1'>Why <span id ='titulo2'>JEM Söcks</span></h1>
                     <h2 id='cuerpo1'>
@@ -73,8 +94,7 @@ export class About extends Component {
                     </div>
 
                 </div>
-                
-
+	
                <h2 id='titulo2'>
                 Will you join us to get to know us?
                </h2>
