@@ -24,8 +24,26 @@ img{
     text-align: left;
     height: 50px;
     margin-left: 0px;
-    padding-left: 5%;
 }  
+ img{
+    vertical-align:middle;
+    position: relative;
+    width: 50px;
+    outline: 2.5px solid #121618;
+    cursor: pointer;
+    transition: 0.3s;
+ }
+ img:hover {
+    outline:3px solid #ffc800;
+    outline-offset: 2px;
+    opacity: 0.6;
+ }
+
+ img{
+    border-radius: 50%;
+ }
+
+
 
 #tabs{
     display: flex;
