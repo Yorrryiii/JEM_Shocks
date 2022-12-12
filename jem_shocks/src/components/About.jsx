@@ -16,7 +16,7 @@ export class About extends Component {
                 </div>
                 {/*Header*/}
                 <div id='introduccion'>
-                    <h5 id='sale'>WE SALE CUSTOM SOCKS</h5>
+                    <h5 id='sale'>WE SELL CUSTOM SOCKS</h5>
                     <h1 id='aboutus'>About Us</h1>
                 </div>
                 {/*Web Content*/}

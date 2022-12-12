@@ -31,7 +31,7 @@ img{
     width: 50px;
     outline: 2.5px solid #121618;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.2s;
  }
  img:hover {
     outline:3px solid #ffc800;
