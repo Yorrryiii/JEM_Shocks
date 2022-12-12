@@ -9,15 +9,15 @@ export class Navbar extends Component{
             <div id="Navbar">
                 <nav>
                     {/* Insertamos el logo de la marca */}
-                    <a classname = "imagen" href="https://google.com">
+                    <a classname = "imagen" href="/JEM_SHOCKS/">
                     <img src="/images/LOGO.png" alt="test" />
                     </a>
 
                     <div id='tabs'>
-                        <Link to="/" id ='home'>Home</Link>
-                        <Link to="/shop" id ='shop'>Shop</Link>
-                        <Link to="/about" id ='about'>About</Link>
-                        <Link to="/contact" id ='contact'>Contact</Link>
+                        <Link to="/JEM_SHOCKS/" id ='home'>Home</Link>
+                        <Link to="/JEM_SHOCKS/shop" id ='shop'>Shop</Link>
+                        <Link to="/JEM_SHOCKS/about" id ='about'>About</Link>
+                        <Link to="/JEM_SHOCKS/contact" id ='contact'>Contact</Link>
                     </div>
 
                     
