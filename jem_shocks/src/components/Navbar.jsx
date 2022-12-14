@@ -3,11 +3,29 @@ import { Link } from 'react-router-dom';
 import './styles/Navbar.css';
 
 export class Navbar extends Component{
-    render(){
 
+    componentDidMount() {
+        window.addEventListener('scroll', this.handleScroll);
+      }
+    
+      componentWillUnmount() {
+        window.removeEventListener('scroll', this.handleScroll);
+      }
+    
+      handleScroll = () => {
+        if (window.scrollY > 1) {
+          // cambia el color del navbar a rojo
+          document.getElementById('navigation').style.backgroundColor = '#051922';
+        } else {
+          // deja el navbar en su color original
+          document.getElementById('navigation').style.backgroundColor = '';
+        }
+    }
+
+    render(){
         return(
-            <div id="Navbar">
-                <nav>
+            <div>
+                <nav id='navigation'>
                     {/* Insertamos el logo de la marca */}
                     <a classname = "imagen" href="/JEM_SHOCKS/">
                     <img src="/images/LOGO.png" alt="test" />
