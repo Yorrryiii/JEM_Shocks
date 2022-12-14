@@ -1,4 +1,4 @@
-.navbar{
+nav{
     background-color: #121618;
     height: 70px;
     display: flex;
@@ -10,9 +10,7 @@
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
 }
-nav.active{
-    background: #ffc800;
-}
+
 
 a{
     float: right;

@@ -1,23 +1,13 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import './styles/Navbar.css';
-import './js/Navbar.js'
 
 export class Navbar extends Component{
     render(){
-        // Función que detecta el scroll y cambia de color
-        window.onscroll = function() {scrollFunction()};
-        function scrollFunction() {
-            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-                document.getElementById("Navbar").style.backgroundColor = "#ff0080";
-            } else {
-                document.getElementById("Navbar").style.backgroundColor = "#ff0080";
-            }
-        }
 
         return(
-            <div>
-                <nav class='navbar'>
+            <div id="Navbar">
+                <nav>
                     {/* Insertamos el logo de la marca */}
                     <a classname = "imagen" href="/JEM_SHOCKS/">
                     <img src="/images/LOGO.png" alt="test" />
