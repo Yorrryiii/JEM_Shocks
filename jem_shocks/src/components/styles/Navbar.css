@@ -48,6 +48,7 @@ img{
 
 
 #tabs{
+    font-family: 'Poppins','Open Sans', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
