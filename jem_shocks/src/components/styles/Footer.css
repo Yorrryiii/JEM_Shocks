@@ -2,6 +2,8 @@
     background-color: #3d3d3d;
     /* Ponemos un borde en la parte de arriba de color amarillo */
     border-top: 1px solid #ffdc00;
+    /* Le damos un estilo a la fuente */
+    font-family: 'Poppins','Open Sans', sans-serif;
 }
 
 p{

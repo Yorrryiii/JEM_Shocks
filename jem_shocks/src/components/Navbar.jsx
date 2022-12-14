@@ -19,9 +19,9 @@ export class Navbar extends Component{
                         <Link to="/JEM_SHOCKS/about" id ='about'>About</Link>
                         <Link to="/JEM_SHOCKS/contact" id ='contact'>Contact</Link>
                     </div>
-                    <div>
+                    {/* <div>
                         <a href="/images/shoppingCart.png"></a>
-                    </div>
+                    </div> */}
 
                     
                 </nav>

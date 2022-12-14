@@ -2,10 +2,11 @@ nav{
     background: #374b56;
     height: 70px;
     display: flex;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     align-items: center;
     justify-content: center;
     /* border-bottom: 1px solid #ffdc00; */
+    /* Para dejar el navbar estático */
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
@@ -45,8 +46,6 @@ img{
     border-radius: 50%;
  }
 
-
-
 #tabs{
     font-family: 'Poppins','Open Sans', sans-serif;
     display: flex;
@@ -54,19 +53,6 @@ img{
     align-items: center;
 }
 
-#home:hover {
+#home:hover, #shop:hover, #about:hover, #contact:hover {
     color: #ffc800;
 }
-
-#shop:hover {
-    color: #ffc800;
-}
-
-#about:hover {
-    color: #ffc800;
-}
-
-#contact:hover {
-    color: #ffc800;
-}
-

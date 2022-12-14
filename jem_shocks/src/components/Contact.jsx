@@ -6,7 +6,28 @@ export class Contact extends Component{
     render(){
         return(
             <div>
-
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2>
+                <h2>Probando</h2> 
             </div>
         )
     }
