@@ -11,6 +11,7 @@
     background-attachment: fixed;
     /* Centramos la imagen */
     background-position: center center;
+    margin-top: 70px;
 }
 
 #introduccion{
