@@ -48,6 +48,11 @@
     font-style: italic;
 }
 
+#lines{
+    /* Ponemos las lineas en el centro de la pantalla */
+    align-items: center;
+}
+
 /* una ralla debajo del titulo pero que aparece muy abajo y no se como cambiarlo*/
 /* #text::after {
     position: absolute;
@@ -116,6 +121,7 @@
     margin-top: 15px;
     margin-bottom: 10px;
 }
+
 .single-team-item h4 span {
     font-size: 70%;
     display: block;
@@ -133,15 +139,18 @@ ul.social-link-team {
     list-style: none;
     text-align: center;
 }
+
 ul.social-link-team li a {
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
 }
+
 #content{
     column-count: 2;
     column-gap: 30px;
 }
+
 .features{
     margin-left: 80px;
     margin-right: 80px;
@@ -150,11 +159,13 @@ ul.social-link-team li a {
     font-size: 18px;
     margin-bottom: 4px;
 }
+
 .features-title {
     font-size: 15px;
     color: #000000;
     font-weight: 700;
 }
+
 .features-content {
     color: #000000;
 }

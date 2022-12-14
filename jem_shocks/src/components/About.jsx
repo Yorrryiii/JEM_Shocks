@@ -10,17 +10,19 @@ export class About extends Component {
             <div id='cuerpo'>
                 {/*Importamos la fuente POPPINS*/}
                 <link rel="stylesheet" href="https://use.typekit.net/cej1rqi.css"></link>
+
                 {/*Preloader*/}
                 <div id="preloader">
                     <div id="loader"></div>
                 </div>
+
                 {/*Header*/}
                 <div id='introduccion'>
                     <h5 id='sale'>WE SELL CUSTOM SOCKS</h5>
                     <h1 id='aboutus'>About Us</h1>
                 </div>
-                {/*Web Content*/}
 
+                {/*Web Content*/}
                 <div id='content'>
                     <div class ='features'>
                      <h3 class = 'features-title'>Custom made</h3>
@@ -52,10 +54,8 @@ export class About extends Component {
                 </div>
                 
                 {/*Lineas divisorias*/}
-                <div className='row center' style={{ marginTop: '50px' }} >
-                    <hr style={{ color: '#b48608', backgroundColor: '#b48608', height: 3, width: '70%' }} />
-                    <hr style={{ color: '#b48608', backgroundColor: '#b48608', height: 3, width: '80%' }} />
-                    <hr style={{ color: '#b48608', backgroundColor: '#b48608', height: 3, width: '70%' }} />
+                <div id='lines'>
+                    <hr size="5px" width="50%" color="red"/>
                 </div>
 
                 {/*Team*/}
