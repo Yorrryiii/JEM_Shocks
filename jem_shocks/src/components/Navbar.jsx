@@ -6,8 +6,8 @@ export class Navbar extends Component{
     render(){
 
         return(
-            <div id="Navbar">
-                <nav>
+            <div>
+                <nav class='navbar'>
                     {/* Insertamos el logo de la marca */}
                     <a classname = "imagen" href="/JEM_SHOCKS/">
                     <img src="/images/LOGO.png" alt="test" />
