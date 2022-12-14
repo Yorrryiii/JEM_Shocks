@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import './styles/Navbar.css';
 
@@ -19,11 +19,7 @@ export class Navbar extends Component{
                         <Link to="/JEM_SHOCKS/about" id ='about'>About</Link>
                         <Link to="/JEM_SHOCKS/contact" id ='contact'>Contact</Link>
                     </div>
-                    {/* <div>
-                        <a href="/images/shoppingCart.png"></a>
-                    </div> */}
-
-                    
+                   
                 </nav>
             </div>
         )
@@ -31,4 +27,3 @@ export class Navbar extends Component{
 }
 
 export default Navbar;
-
