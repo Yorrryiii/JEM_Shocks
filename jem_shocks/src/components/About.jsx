@@ -54,8 +54,10 @@ export class About extends Component {
                 </div>
                 
                 {/*Lineas divisorias*/}
-                <div id='lines'>
-                    <hr size="5px" width="50%" color="red"/>
+                <div>
+                    <hr size="5px" width="50%" align="center" color="red"/>
+                    <hr size="5px" width="50%" align="center" color="red"/>
+                    <hr size="5px" width="50%" align="center" color="red"/>
                 </div>
 
                 {/*Team*/}

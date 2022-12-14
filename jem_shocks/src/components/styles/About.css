@@ -11,7 +11,6 @@
     background-attachment: fixed;
     /* Centramos la imagen */
     background-position: center center;
-    margin-top: 30px; /* Add a top margin to avoid navbar overlay */
 }
 
 #introduccion{
@@ -48,10 +47,6 @@
     font-style: italic;
 }
 
-#lines{
-    /* Ponemos las lineas en el centro de la pantalla */
-    align-items: center;
-}
 
 /* una ralla debajo del titulo pero que aparece muy abajo y no se como cambiarlo*/
 /* #text::after {
@@ -71,7 +66,7 @@
 
 #titulo1{
     /* Ampliamos el tamaño de letra */
-    padding-top: 80px;
+    /* padding-top: 80px; */
     font-family: 'Poppins','Open Sans', sans-serif;
     font-size: 60px;
     color: #000000;
