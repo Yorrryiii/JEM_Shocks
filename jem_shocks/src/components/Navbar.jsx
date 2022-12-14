@@ -4,6 +4,15 @@ import './styles/Navbar.css';
 
 export class Navbar extends Component{
     render(){
+        // Función que detecta el scroll y cambia de color
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                document.getElementById("Navbar").style.backgroundColor = "#ff0080";
+            } else {
+                document.getElementById("Navbar").style.backgroundColor = "#ff0080";
+            }
+        }
 
         return(
             <div id="Navbar">
