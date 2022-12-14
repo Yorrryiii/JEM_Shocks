@@ -12,6 +12,7 @@
     /* Centramos la imagen */
     background-position: center center;
     margin-top: 70px;
+    font-family: 'Poppins','Open Sans', sans-serif;
 }
 
 #introduccion{
@@ -68,7 +69,6 @@
 #titulo1{
     /* Ampliamos el tamaño de letra */
     /* padding-top: 80px; */
-    font-family: 'Poppins','Open Sans', sans-serif;
     font-size: 60px;
     color: #000000;
 }
@@ -94,13 +94,13 @@
 
 /*Fotos de los creadores de la página*/
 .founders-1 {
-    background-image: url(../img/team-2.jpg);
+    background-image: url(../../../public/images/EjemploPersona.jpg);
 }
 .founders-2 {
-    background-image: url(../img/team-2.jpg);
+    background-image: url(../../../public/images/EjemploPersona.jpg);
 }
 .founders-3 {
-    background-image: url(../img/team-2.jpg);
+    background-image: url(../../../public/images/EjemploPersona.jpg);
 }
 
 .photos{

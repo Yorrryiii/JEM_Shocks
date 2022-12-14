@@ -8,9 +8,6 @@ export class About extends Component {
         return (
             
             <div id='cuerpo'>
-                {/*Importamos la fuente POPPINS*/}
-                <link rel="stylesheet" href="https://use.typekit.net/cej1rqi.css"></link>
-
                 {/*Preloader*/}
                 <div id="preloader">
                     <div id="loader"></div>
