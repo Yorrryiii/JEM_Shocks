@@ -22,11 +22,8 @@ a{
 }
 
 #tabs{
-    /* Centramos al centro */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+    margin-left: 30%;
+    margin-top: 2.6%;
 }
 
 ul{
@@ -71,9 +68,6 @@ img{
 #parteDcha{
     /* Los alineamos a la derecha del todo */
     float: right;
-    /* Centramos los elementos */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-top: 2%;
 
 }
