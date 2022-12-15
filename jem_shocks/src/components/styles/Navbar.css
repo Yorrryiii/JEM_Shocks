@@ -21,6 +21,14 @@ a{
     color: #fff;
 }
 
+#tabs{
+    /* Centramos al centro */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 ul{
     /* Ampliamos el tamaño del ul */
     width: 65%;
@@ -35,7 +43,7 @@ ul{
 img{
     vertical-align:middle;
     position: relative;
-    width: 50px;
+    width: 55px;
     outline: 2.5px solid transparent;
     cursor: pointer;
     transition: 0.2s;
@@ -50,13 +58,6 @@ img{
     border-radius: 50%;
 }
 
-#tabs{
-    font-family: 'Poppins','Open Sans', sans-serif;
-    display: flex;
-    align-items: center; 
-    justify-content: center;
-} 
-
 #home:hover, #shop:hover, #about:hover, #contact:hover {
     color: #ffc800;
 }
@@ -70,4 +71,9 @@ img{
 #parteDcha{
     /* Los alineamos a la derecha del todo */
     float: right;
+    /* Centramos los elementos */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
