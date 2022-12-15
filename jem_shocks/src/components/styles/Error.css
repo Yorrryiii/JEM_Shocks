@@ -5,6 +5,11 @@
 }
 
 #Error404NotFound {
-  width: 40%;
-  height: 40%;
+  /* Agrandamos la imagen */
+  width: 120%;
+  height: 100%;
+  /* Centramos la imagen al centro de la pantalla */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
