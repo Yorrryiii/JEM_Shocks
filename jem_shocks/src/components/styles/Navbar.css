@@ -5,9 +5,11 @@
     font-size: 1.1rem;
     align-items: center;
     justify-content: center;
+    /* Para hacer que las imagenes no se superpongan al navbar */
+    z-index: 999;
     /* border-bottom: 1px solid #ffdc00; */
     /* Para dejar el navbar estático */
-    position: fixed; /* Set the navbar to fixed position */
+    position: fixed;  /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
     font-family: 'Poppins','Open Sans', sans-serif;
