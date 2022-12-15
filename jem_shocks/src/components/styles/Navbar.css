@@ -14,45 +14,60 @@
 }
 
 a{
-    float: right;
+    float: left;
     margin-right: 40px;
     /* Para que no aparezca como que está subrayado [Hipervínculo] */
     text-decoration: none;
     color: #fff;
 }
 
-img{
-    text-align: left;
-    height: 50px;
-    margin-left: 0px;
-} 
+ul{
+    /* Ampliamos el tamaño del ul */
+    width: 65%;
+}
+
+#imagen{
+    /* Alineamos el logo a la izquierda */
+    float: left;
+}  
 
 /* Animacion del logo */
 img{
     vertical-align:middle;
     position: relative;
     width: 50px;
-    outline: 2.5px solid #374b56;
+    outline: 2.5px solid transparent;
     cursor: pointer;
     transition: 0.2s;
- }
+}
 img:hover {
     outline:3px solid #ffc800;
     outline-offset: 2px;
     opacity: 0.6;
- }
+}
 
 img{
     border-radius: 50%;
- }
+}
 
 #tabs{
     font-family: 'Poppins','Open Sans', sans-serif;
     display: flex;
+    align-items: center; 
     justify-content: center;
-    align-items: center;
-}
+} 
 
 #home:hover, #shop:hover, #about:hover, #contact:hover {
     color: #ffc800;
+}
+
+.lupa, .carrito{
+    width: 40px;
+    height: 20px;
+    color: #fff;
+}
+
+#parteDcha{
+    /* Los alineamos a la derecha del todo */
+    float: right;
 }
