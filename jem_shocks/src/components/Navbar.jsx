@@ -26,7 +26,7 @@ export class Navbar extends Component {
             <div>
                 <nav id='navigation'>
                     <ul>
-                        <a id='imagen' href="/JEM_SHOCKS/">
+                        <a href="/JEM_SHOCKS/">
                             <img src="/images/LOGO.png" alt="JEM SHÖCKS LOGO" />
                         </a>
 
@@ -47,9 +47,7 @@ export class Navbar extends Component {
                             <Link to="/JEM_SHOCKS/shop" id='shop'>Shop</Link>
                             <Link to="/JEM_SHOCKS/about" id='about'>About</Link>
                             <Link to="/JEM_SHOCKS/contact" id='contact'>Contact</Link>
-                        </div> 
-                        
-
+                        </div>
                     </ul>
                 </nav>
             </div>
