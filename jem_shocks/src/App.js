@@ -22,6 +22,8 @@ function App() {
             <Route exact path="/JEM_SHOCKS/about" element={<About />} />
             <Route exact path="/JEM_SHOCKS/contact" element={<Contact />} />
 
+            <Route exact path="/JEM_SHOCKS/contact" element={<Contact />} />
+
             <Route path="/JEM_SHOCKS/*" element={<Error />} />
           </Routes>
 
