@@ -68,8 +68,9 @@ img{
 }
 
 #parteDcha{
-    /* Los alineamos a la derecha del todo */
+    /* Centramos verticalmente los elementos */
+    display: flex;
+    align-items: center;
+    /* Alineamos a la derecha */
     float: right;
-    margin-top: 1.7%;
-
 }
