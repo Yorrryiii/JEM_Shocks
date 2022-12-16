@@ -5,7 +5,12 @@ export class Busqueda extends Component{
     render(){
         return(
             <div>
-                {/* Contenido de la página shop */}
+                <div class = "search-box">
+                    <input type="text" placeholder = "search...." />
+                    <a href="##" class = 'icon'>
+                        <i class= "fas fa-search"></i>
+                    </a>
+                </div>
             </div>
         )
     }
