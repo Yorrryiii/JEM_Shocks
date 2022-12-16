@@ -8,7 +8,7 @@ export class Busqueda extends Component{
                 <div class = "search-box">
                     <input type="text" placeholder = "search...." />
                     <a href="##" class = 'icon'>
-                        <i class= "fas fa-search"></i>
+                        <i class= "bi bi-search"></i>
                     </a>
                 </div>
             </div>
