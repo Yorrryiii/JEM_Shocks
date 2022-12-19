@@ -2,11 +2,39 @@
     margin-top: 150px;
 }
 
+#FormularioContacto{
+    padding: 15px;
+}
+
 #tituloForm{
     margin-bottom: 25px;
 }
 
-#descripcionPregunta{
-    /* color de texto en color negro */
+.descripcionPregunta{
     color: #000;
+    /* Justificamos el texto */
+    text-align: justify;
+}
+
+#primeraLinea, #segundaLinea{
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+}
+
+#nombre, #email, #telefono, #asunto, #mensaje{
+    width: 49%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    overflow: auto;
+
+}
+
+textarea{
+    height: 200px;
+    border-radius: 3px;
+    width: 100%;
+    resize: none;
+    overflow: auto;
 }
