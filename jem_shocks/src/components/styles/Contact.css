@@ -1,0 +1,46 @@
+#formInfo{
+    margin-top: 150px;
+}
+
+#FormularioContacto{
+    padding: 15px;
+}
+
+#tituloForm{
+    margin-bottom: 25px;
+}
+
+.descripcionPregunta{
+    color: #000;
+    /* Justificamos el texto */
+    text-align: justify;
+}
+
+#primeraLinea, #segundaLinea{
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+}
+
+#nombre, #email, #telefono, #asunto, #mensaje{
+    width: 49%;
+    padding: 15px;
+    border-radius: 3px;
+    overflow: auto;
+    color: #000;
+}
+
+input:focus{
+    /* Para que no haya conflicto en otras paginas */
+    outline: none;
+    border: 1px solid #000;
+}
+
+textarea{
+    height: 200px;
+    border-radius: 3px;
+    width: 100%;
+    resize: none;
+    /* Si sobrepasa el tamaño, que el usuario pueda hacer scroll */
+    overflow: auto;
+}
