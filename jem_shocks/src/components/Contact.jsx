@@ -6,6 +6,11 @@ export class Contact extends Component {
     render() {
         return (
             <div>
+                <div id='introduccion'>
+                    <h5 id='sale'>GET 24 / 7 SUPPORT</h5>
+                    <h1 id='aboutus'>Contact us</h1>
+                </div>
+
                 {/* div que engloba la columna de formulario y la columna de datos de interes */}
                 <div id='formInfo'>
                     {/* div que engloba el formulario */}
@@ -22,9 +27,9 @@ export class Contact extends Component {
                             <form type='POST'>
                                 <p id='primeraLinea'>
                                     {/* Apartado para introducir el nombre */}
-                                    <input type='text' id='nombre' name='nombre' placeholder='Name' />
+                                    <input type='text' id='nombre' name='nombre' placeholder='Name' required/>
                                     {/* Apartado para introducir el email */}
-                                    <input type='email' id='email' name='email' placeholder='Email' />
+                                    <input type='email' id='email' name='email' placeholder='Email' required/>
                                 </p>
                                 <p id='segundaLinea'>
                                     {/* Apartado para introducir el número de telefono */}
@@ -34,8 +39,10 @@ export class Contact extends Component {
                                 </p>
                                 {/* Apartado para introducir el mensaje */}
                                 <p id='terceraLinea'>
-                                    <textarea id='mensaje' name='mensaje' placeholder='Message' cols='30' rows='10'/>
+                                    <textarea id='mensaje' name='mensaje' placeholder='Message' cols='30' rows='10' required/>
                                 </p>
+                                {/* Apartado para enviar el formulario */}
+                                <input type='submit' id='enviar' name='enviar' value='Submit' />
                             </form>
                         </div>
                     </div>
