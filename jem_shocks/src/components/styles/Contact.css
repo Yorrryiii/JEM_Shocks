@@ -29,6 +29,8 @@
     font-size: 1rem;
     color: #000;
     font-family: 'Poppins','Open Sans', sans-serif;
+    /* Añadimos un borde de color gris */
+    border: 1px solid #ccc;
 }
 
 input:focus{
