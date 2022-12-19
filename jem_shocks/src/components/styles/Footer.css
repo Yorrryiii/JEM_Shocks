@@ -4,9 +4,7 @@
     border-top: 1px solid #ffdc00;
     /* Le damos un estilo a la fuente */
     font-family: 'Poppins','Open Sans', sans-serif;
-    position: fixed;
     width: 100%;
-    bottom: 0;
 }
 
 p{
