@@ -25,10 +25,15 @@
 #nombre, #email, #telefono, #asunto, #mensaje{
     width: 49%;
     padding: 15px;
-    border: 1px solid #ddd;
     border-radius: 3px;
     overflow: auto;
+    color: #000;
+}
 
+input:focus{
+    /* Para que no haya conflicto en otras paginas */
+    outline: none;
+    border: 1px solid #000;
 }
 
 textarea{
@@ -36,5 +41,6 @@ textarea{
     border-radius: 3px;
     width: 100%;
     resize: none;
+    /* Si sobrepasa el tamaño, que el usuario pueda hacer scroll */
     overflow: auto;
 }
