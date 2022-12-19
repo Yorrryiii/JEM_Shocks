@@ -22,25 +22,37 @@
     color: #000;
 }
 
-#nombre, #email, #telefono, #asunto, #mensaje{
+#nombre, #email, #telefono, #asunto{
     width: 49%;
     padding: 15px;
-    border-radius: 3px;
     overflow: auto;
+    font-size: 1rem;
     color: #000;
+    font-family: 'Poppins','Open Sans', sans-serif;
 }
 
 input:focus{
     /* Para que no haya conflicto en otras paginas */
     outline: none;
-    border: 1px solid #000;
+    border: 2px solid #000;
+    /* Quitamos la animacion */
+    transition: none;
+    font-size: 1rem;
 }
 
 textarea{
     height: 200px;
-    border-radius: 3px;
     width: 100%;
     resize: none;
     /* Si sobrepasa el tamaño, que el usuario pueda hacer scroll */
     overflow: auto;
+    font-family: 'Poppins','Open Sans', sans-serif;
+    /* Ponemos un fondo transparente */
+    background-color: transparent;
+    /* Quitamos el borde */
+    border: none;
+    /* Ponemos el mismo tamaño que el resto de los placeholders */
+    font-size: 1rem;
+    padding-top: 15px;
+    padding-left: 15px;
 }
