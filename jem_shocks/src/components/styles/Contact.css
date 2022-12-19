@@ -19,7 +19,6 @@
 #primeraLinea, #segundaLinea{
     display: flex;
     justify-content: space-between;
-    color: #000;
 }
 
 #nombre, #email, #telefono, #asunto{
@@ -34,8 +33,6 @@
 }
 
 input:focus{
-    /* Para que no haya conflicto en otras paginas */
-    outline: none;
     font-size: 1rem;
 }
 
