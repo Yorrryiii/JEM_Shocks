@@ -67,7 +67,7 @@ img{
     color: #fff;
 }
 
-#parteDcha{
+.search{
     /* Los alineamos a la derecha del todo */
     float: right;
     margin-top: 1.7%;
