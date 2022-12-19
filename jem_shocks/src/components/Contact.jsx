@@ -11,7 +11,7 @@ export class Contact extends Component {
                     {/* div que engloba el formulario */}
                     <div id='FormularioContacto'>
                         <div id='tituloForm'>
-                            <h2>Have you any question?</h2>
+                            <h2>Do you have any questions?</h2>
                             <p className='descripcionPregunta'>
                                 If you have any questions or concerns about our socks, please do not hesitate to contact us.
                                 Our customer service team is happy to help you with any questions you may have.
