@@ -2,6 +2,7 @@ import React, { Component, useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import './styles/Navbar.css';
 import Busqueda from './Busqueda';
+import Login from './Login';
 
 export class Navbar extends Component {
 
@@ -48,6 +49,7 @@ export class Navbar extends Component {
                             <Link to="/JEM_SHOCKS/contact" id='contact'>Contact</Link>
                         </div>
                     </ul>
+                    <Login />
                 </nav>
             </div>
         )
