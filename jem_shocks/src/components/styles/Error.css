@@ -2,14 +2,11 @@
   /* Para alinear la imagen al centro de la pantalla */
   display: flex;
   justify-content: center; 
+  align-items: center;
 }
 
 #Error404NotFound {
   /* Agrandamos la imagen */
   width: 120%;
   height: 100%;
-  /* Centramos la imagen al centro de la pantalla */
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
