@@ -12,18 +12,18 @@ export class Contact extends Component {
                 </div>
 
                 {/* div que engloba la columna de formulario y la columna de datos de interes */}
-                <div id='formInfo'>
+                <div id='ColumnasImportantes'>
                     {/* div que engloba el formulario */}
                     <div id='FormularioContacto'>
                         <div id='tituloForm'>
-                            <h2>Do you have any questions?</h2>
+                            <h2 style={{padding: 10}}>Do you have any questions?</h2>
                             <p className='descripcionPregunta'>
                                 If you have any questions or concerns about our socks, please do not hesitate to contact us.
                                 Our customer service team is happy to help you with any questions you may have.
                                 You can do so via our contact form, through our online chat or by sending an email to our customer service, we'll be happy to help you!
                             </p>
                         </div>
-                        <div id=''>
+                        <div>
                             <form type='POST'>
                                 <p id='primeraLinea'>
                                     {/* Apartado para introducir el nombre */}
@@ -44,6 +44,29 @@ export class Contact extends Component {
                                 {/* Apartado para enviar el formulario */}
                                 <input type='submit' id='enviar' name='enviar' value='Submit' />
                             </form>
+                        </div>
+                    </div>
+                    {/* div que engloba la columna de otros dats de interés */}
+                    <div id='DatosInteres'>
+                        <div>
+                            <div id='ShopAddress'>
+                                <h2>Shop address</h2>
+                                <p>Av. de la Industria, 1 </p>
+                                <p>28922 Alcorcón </p>
+                                <p>Madrid, Spain</p>
+                            </div>
+                            <div id='ShopHours'>
+                                <h2>Shop hours</h2>
+                                <p>MON - FRIDAY: 8 to 19 PM</p>
+                                <p>SATURDAY: 9 to 13 PM</p>
+                                <p>ONLINE: open 24 hours</p>
+                            </div>
+                            <div id='Contact'>
+                                <h2>Contact</h2>
+                                <p>Phone: +34 91 123 45 67</p>
+                                <p>Email:</p>
+                                <p>support@jem_shocks.com</p>
+                            </div>
                         </div>
                     </div>
                 </div>
