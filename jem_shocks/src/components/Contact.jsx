@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import GoogleMapReact from 'google-map-react';
+import iframe from 'react-iframe';
 import './styles/Contact.css';
 
 export class Contact extends Component {
@@ -87,6 +89,12 @@ export class Contact extends Component {
                         <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
                     </svg>
                     <p>Find Our Location</p>
+                </div>
+                {/* Insertamos un mapa de google maps a partir de codigo html */}
+                <div id='mapa'>
+                    <GoogleMapReact>
+                        <Iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11905.354833677726!2d-0.8339969!3d41.7563546!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x20d6671888907d30!2sUniversidad%20San%20Jorge!5e0!3m2!1ses!2ses!4v1671573708166!5m2!1ses!2ses" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></Iframe>
+                    </GoogleMapReact>
                 </div>
             </div>
         )

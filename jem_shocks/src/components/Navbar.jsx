@@ -49,7 +49,7 @@ export class Navbar extends Component {
                             <Link to="/JEM_SHOCKS/contact" id='contact'>Contact</Link>
                         </div>
                     </ul>
-                    <Login />
+                    <Link to="/JEM_SHOCKS/login/" id='login'><Login /> </Link>
                 </nav>
             </div>
         )

@@ -94,8 +94,8 @@ input[type="submit"] {
 }
 
 #InformacionAdicional svg{
-        float: left;
-        fill: #ffc800;
+    float: left;
+    fill: #ffc800;
 }
 
 #ShopAddress, #ShopHours, #Contact{
@@ -126,3 +126,4 @@ input[type="submit"] {
     /* Para alinearlo al nivel del texto */
     margin-top: 0px;
 }
+
