@@ -16,7 +16,7 @@ export class Contact extends Component {
                     {/* div que engloba el formulario */}
                     <div id='FormularioContacto'>
                         <div id='tituloForm'>
-                            <h2 style={{ padding: 10 }}>Do you have any questions?</h2>
+                            <h2 style={{ margin: '0 0 17.5px' }}>Do you have any questions?</h2>
                             <p className='descripcionPregunta'>
                                 If you have any questions or concerns about our socks, please do not hesitate to contact us.
                                 Our customer service team is happy to help you with any questions you may have.
@@ -47,26 +47,26 @@ export class Contact extends Component {
                         </div>
                     </div>
                     {/* div que engloba la columna de otros dats de interés */}
-                    <div id='DatosInteres'>
-                        <div>
+                    <div id='datos'>
+                        <div id='InformacionAdicional'>
                             <div id='ShopAddress'>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pin-map-fill" viewBox="0 0 16 16">
+                                {/* <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pin-map-fill" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8l3-4z" />
                                     <path fill-rule="evenodd" d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z" />
-                                </svg>
-                                <h2>Shop address</h2>
+                                </svg> */}
+                                <h4>Shop address</h4>
                                 <p>Av. de la Industria, 1 </p>
                                 <p>28922 Alcorcón </p>
                                 <p>Madrid, Spain</p>
                             </div>
                             <div id='ShopHours'>
-                                <h2>Shop hours</h2>
-                                <p>MON - FRIDAY: 8 to 19 PM</p>
+                                <h4>Shop hours</h4>
+                                <p>MON - FRIDAY: 9 to 19 PM</p>
                                 <p>SATURDAY: 9 to 13 PM</p>
                                 <p>ONLINE: open 24 hours</p>
                             </div>
                             <div id='Contact'>
-                                <h2>Contact</h2>
+                                <h4>Contact</h4>
                                 <p>Phone: +34 91 123 45 67</p>
                                 <p>Email:</p>
                                 <p>support@jem_shocks.com</p>

@@ -7,7 +7,7 @@
     width: 100%;
 }
 
-p{
+#footer p{
     /* Alineamos el texto al centro de la pantalla */
     text-align: center;
     /* Ponemos el color de la fuente en color blanco */

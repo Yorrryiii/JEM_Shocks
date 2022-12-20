@@ -5,9 +5,8 @@
     width: 80%;
 }
 
-#FormularioContacto{
-    padding: 15px;
-    width: 90%;
+#FormularioContacto, #datos{
+    padding: 0 15px;
 }
 
 #tituloForm{
@@ -58,6 +57,7 @@ textarea{
     font-size: 1rem;
     padding: 15px;
     border: 1px solid #ccc;
+    margin: 0px 0px 17.5px;
 }
 
 input[type="submit"] {
@@ -73,37 +73,3 @@ input[type="submit"] {
     width: auto;
 }
 
-#DatosInteres{
-    background-size: cover;
-    background-color: #ededed;
-    padding: 15px;
-    width: 35%;
-    padding: 45px 30px;
-}
-
-#DatosInteres h2{
-    font-size: 20px;
-    font-family: 'Poppins','Open Sans', sans-serif;
-    margin: 0px 0px 10px;
-}
-
-#DatosInteres p{
-    font-size: 14px;
-    font-family: 'Poppins','Open Sans', sans-serif;
-    margin: 0px 0px 0px 10px;
-    color: #666;
-    text-align: left;
-    /* Espacio entre las etiquetas p */
-    line-height: 0.5;
-    padding: 15px;
-}
-
-#ShopAddress, #ShopHours, #Contact{
-    margin: 0px 0px 30px;
-    padding: 0px 0px 0px 40px;
-}
-
-svg{
-    /* Le cambiamos el color al color #ffc800 */
-    fill: #ffc800;
-}
