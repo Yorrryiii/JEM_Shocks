@@ -102,3 +102,8 @@ input[type="submit"] {
     margin: 0px 0px 30px;
     padding: 0px 0px 0px 40px;
 }
+
+svg{
+    /* Le cambiamos el color al color #ffc800 */
+    fill: #ffc800;
+}

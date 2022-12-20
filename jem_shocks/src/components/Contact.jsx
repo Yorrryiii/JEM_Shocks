@@ -16,7 +16,7 @@ export class Contact extends Component {
                     {/* div que engloba el formulario */}
                     <div id='FormularioContacto'>
                         <div id='tituloForm'>
-                            <h2 style={{padding: 10}}>Do you have any questions?</h2>
+                            <h2 style={{ padding: 10 }}>Do you have any questions?</h2>
                             <p className='descripcionPregunta'>
                                 If you have any questions or concerns about our socks, please do not hesitate to contact us.
                                 Our customer service team is happy to help you with any questions you may have.
@@ -27,9 +27,9 @@ export class Contact extends Component {
                             <form type='POST'>
                                 <p id='primeraLinea'>
                                     {/* Apartado para introducir el nombre */}
-                                    <input type='text' id='nombre' name='nombre' placeholder='Name' required/>
+                                    <input type='text' id='nombre' name='nombre' placeholder='Name' required />
                                     {/* Apartado para introducir el email */}
-                                    <input type='email' id='email' name='email' placeholder='Email' required/>
+                                    <input type='email' id='email' name='email' placeholder='Email' required />
                                 </p>
                                 <p id='segundaLinea'>
                                     {/* Apartado para introducir el número de telefono */}
@@ -39,7 +39,7 @@ export class Contact extends Component {
                                 </p>
                                 {/* Apartado para introducir el mensaje */}
                                 <p id='terceraLinea'>
-                                    <textarea id='mensaje' name='mensaje' placeholder='Message' cols='30' rows='10' required/>
+                                    <textarea id='mensaje' name='mensaje' placeholder='Message' cols='30' rows='10' required />
                                 </p>
                                 {/* Apartado para enviar el formulario */}
                                 <input type='submit' id='enviar' name='enviar' value='Submit' />
@@ -50,6 +50,10 @@ export class Contact extends Component {
                     <div id='DatosInteres'>
                         <div>
                             <div id='ShopAddress'>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pin-map-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8l3-4z" />
+                                    <path fill-rule="evenodd" d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z" />
+                                </svg>
                                 <h2>Shop address</h2>
                                 <p>Av. de la Industria, 1 </p>
                                 <p>28922 Alcorcón </p>
