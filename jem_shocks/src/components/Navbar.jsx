@@ -43,10 +43,10 @@ export class Navbar extends Component {
                         </div>
 
                         <div id='tabs'>
-                            <Link to="/JEM_SHOCKS/" id='home'>Home</Link>
-                            <Link to="/JEM_SHOCKS/shop" id='shop'>Shop</Link>
-                            <Link to="/JEM_SHOCKS/about" id='about'>About</Link>
-                            <Link to="/JEM_SHOCKS/contact" id='contact'>Contact</Link>
+                            <Link to="/JEM_SHOCKS/" id='home' onClick={'/JEM_SHOCKS/'}>Home</Link>
+                            <Link to="/JEM_SHOCKS/shop" id='shop' onClick={'/JEM_SOCKS/shop'}>Shop</Link>
+                            <Link to="/JEM_SHOCKS/about" id='about' onClick={'/JEM_SOCKS/about'}>About</Link>
+                            <Link to="/JEM_SHOCKS/contact" id='contact' onClick={'/JEM_SOCKS/contact'}>Contact</Link>
                         </div>
                     </ul>
                     <Link to="/JEM_SHOCKS/login/" id='login'><Login /> </Link>
