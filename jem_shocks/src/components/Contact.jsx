@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import GoogleMapReact from 'google-map-react';
-import iframe from 'react-iframe';
 import './styles/Contact.css';
 
 export class Contact extends Component {
@@ -90,12 +88,10 @@ export class Contact extends Component {
                     </svg>
                     <p>Find Our Location</p>
                 </div>
-                {/* Insertamos un mapa de google maps a partir de codigo html */}
-                <div id='mapa'>
-                    <GoogleMapReact>
-                        <Iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11905.354833677726!2d-0.8339969!3d41.7563546!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x20d6671888907d30!2sUniversidad%20San%20Jorge!5e0!3m2!1ses!2ses!4v1671573708166!5m2!1ses!2ses" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></Iframe>
-                    </GoogleMapReact>
-                </div>
+                {/* Insertamos el mapa */}
+                
+                {/* <iframe width="100px" height="100px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-0.8382225036621095%2C41.754962186218016%2C-0.8313238620758058%2C41.75759935399146&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=18/41.75628/-0.83477">Ver mapa más grande</a></small> */}
+                
             </div>
         )
     }
