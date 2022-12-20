@@ -96,8 +96,6 @@ input[type="submit"] {
 #InformacionAdicional svg{
         float: left;
         fill: #ffc800;
-        width: 20px;
-        height: 20px;
 }
 
 #ShopAddress, #ShopHours, #Contact{
@@ -107,4 +105,24 @@ input[type="submit"] {
 
 #Contact{
     margin: 0px;
+}
+
+
+/* FIND OUR LOCALIZATION */
+#FindLocation{
+    height: 262px;
+    background-color: #051922;
+    color: #fff;
+    font-size: 40px;
+    /* Centrado tanto vertical como horizontalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#FindLocation svg{
+    margin: 15px;
+    fill: #ffc800;
+    /* Para alinearlo al nivel del texto */
+    margin-top: 0px;
 }
