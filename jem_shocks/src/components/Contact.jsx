@@ -89,9 +89,8 @@ export class Contact extends Component {
                     <p>Find Our Location</p>
                 </div>
                 {/* Insertamos el mapa */}
-                
-                {/* <iframe width="100px" height="100px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-0.8382225036621095%2C41.754962186218016%2C-0.8313238620758058%2C41.75759935399146&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=18/41.75628/-0.83477">Ver mapa más grande</a></small> */}
-                
+                <div id='mapa'>
+                </div>
             </div>
         )
     }

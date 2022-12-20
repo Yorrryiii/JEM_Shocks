@@ -127,3 +127,13 @@ input[type="submit"] {
     margin-top: 0px;
 }
 
+#mapa{
+    /* insertamos la imagen */
+    background-image: url(../../../public/images/Mapa.png);
+    width: 100%;
+    /* Ajustamos el contenido al tamaño de la ventana */
+    background-size: cover;
+    /* Para que no se repita */
+    background-repeat: no-repeat;
+    height: 650px;
+}
