@@ -128,12 +128,15 @@ input[type="submit"] {
 }
 
 #mapa{
-    /* insertamos la imagen */
-    background-image: url(../../../public/images/Mapa.png);
+    display: flex;
+}
+
+#MapaUSJ{
+    border-radius: 0px;
+    /* Ajustar el ancho al tamaño completo de la ventana */
     width: 100%;
-    /* Ajustamos el contenido al tamaño de la ventana */
-    background-size: cover;
-    /* Para que no se repita */
-    background-repeat: no-repeat;
-    height: 650px;
+    height: 100%;
+    border: 0px;
+    /* quitamos que se haga transparente cuando el raton se situe encima de la imagen */
+    pointer-events: none;
 }

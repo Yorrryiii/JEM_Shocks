@@ -90,6 +90,9 @@ export class Contact extends Component {
                 </div>
                 {/* Insertamos el mapa */}
                 <div id='mapa'>
+                    <a href="https://goo.gl/maps/NKZPrkn5eKSVV1xB6" target='_blank'>
+                        <img src="/images/Mapa.png" alt="USJ" id='MapaUSJ' />
+                    </a>
                 </div>
             </div>
         )

@@ -10,3 +10,22 @@
   width: 120%;
   height: 100%;
 }
+
+img{
+  vertical-align:middle;
+  position: relative;
+  width: 55px;
+  outline: 2.5px solid transparent;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+img:hover {
+  outline:3px solid #ffc800;
+  outline-offset: 2px;
+  opacity: 0.6;
+}
+
+img{
+  border-radius: 50%;
+}
