@@ -1,48 +1,83 @@
-#introduccion{
+#introduccion {
     /* Centramos el contenido al centro de la página */
     text-align: center;
     /* Ponemos un fondo */
     background-color: #374b56;
-    padding: 130px ;
+    padding: 130px;
 }
 
-#sale{
+#sale {
     color: #ffdc00;
-    font-family:'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     /* Espaciado entre las letras */
     letter-spacing: 7px;
     font-size: 14px;
 }
 
-#aboutus{
+#aboutus {
     color: #fff;
     letter-spacing: 0px;
     margin: 20px;
-    font-family: 'Poppins','Open Sans', sans-serif;
+    font-family: 'Poppins', 'Open Sans', sans-serif;
     /* Ampliamos el tamaño y el espesor de la fuente */
     font-size: 60px;
     font-weight: 900;
 }
 
-#text{
+#text {
     text-align: center;
     margin-left: 5%;
     margin-right: 5%;
-    padding: 100px ;
+    padding: 100px;
     font-style: italic;
 }
 
 /* Why jem shocks title */
 
 /* rest of colums for why jem shocks*/
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-cly1{text-align:left;vertical-align:middle}
-.tg .tg-nrix{text-align:center;vertical-align:middle}
-.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.tg td {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+.tg th {
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+.tg .tg-cly1 {
+    text-align: left;
+    vertical-align: middle
+}
+
+.tg .tg-nrix {
+    text-align: center;
+    vertical-align: middle
+}
+
+.tg .tg-0lax {
+    text-align: left;
+    vertical-align: top
+}
+
 
 
 
@@ -62,21 +97,21 @@
     box-sizing: border-box;
 } */
 
-#titulo1{
+#titulo1 {
     /* Ampliamos el tamaño de letra */
     /* padding-top: 80px; */
     font-size: 60px;
     color: #000000;
 }
 
-#titulo2{
+#titulo2 {
     font-size: 60px;
     color: #ffc800;
 }
 
-#cuerpo1{
+#cuerpo1 {
     margin: 20px;
-    font-family: 'Poppins','Open Sans', sans-serif;
+    font-family: 'Poppins', 'Open Sans', sans-serif;
 }
 
 .founders {
@@ -91,17 +126,19 @@
 }
 
 /*Fotos de los creadores de la página*/
-.founders-1{
+.founders-1 {
     background-image: url(../../../public/images/EjemploPersona.jpg);
 }
+
 .founders-2 {
     background-image: url(../../../public/images/EjemploPersona.jpg);
 }
+
 .founders-3 {
     background-image: url(../../../public/images/EjemploPersona.jpg);
 }
 
-.photos{
+.photos {
     margin-left: 80px;
     margin-right: 80px;
     column-count: 3;
@@ -140,12 +177,12 @@ ul.social-link-team li a {
     transition: 0.3s;
 }
 
-#content{
+#content {
     column-count: 2;
     column-gap: 30px;
 }
 
-.features{
+.features {
     margin-left: 80px;
     margin-right: 80px;
     display: block;
@@ -169,7 +206,7 @@ ul.social-link-team li a {
 
 /*Preloader*/
 
-  /* #preloader {
+/* #preloader {
       position: fixed;
       top: 0;
       left: 0;
