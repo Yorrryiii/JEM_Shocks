@@ -5,28 +5,24 @@ export class Home extends Component{
     render(){
         return(
             <div id='cuerpo'>
-                <h2>Probando</h2>
-                <h2>Probando</h2>
-                <h2>Probando</h2>
-                <h2>Probando</h2>
-                <h2>Probando</h2>
-                <h2>Probando</h2>
-                <h2>Probando</h2>
-                <h2>Probando</h2>
-                <h2>Probando</h2>
-                <h2>Probando</h2>
-                <h2>Probando</h2>
-                <h2>Probando</h2>
-                <h2>Probando</h2>
-                <h2>Probando</h2>
-                <h2>Probando</h2>
-                <h2>Probando</h2>
-                <h2>Probando</h2>
-                <h2>Probando</h2>
-                <h2>Probando</h2>
-                <h2>Probando</h2>
-                <h2>Probando</h2>
-                <h2>Probando</h2> 
+                <div id='portada'>
+<h2>Probando</h2>
+<h2>Probando</h2>
+<h2>Probando</h2>
+<h2>Probando</h2>
+<h2>Probando</h2>
+<h2>Probando</h2>
+<h2>Probando</h2>
+<h2>Probando</h2>
+<h2>Probando</h2>
+<h2>Probando</h2>
+<h2>Probando</h2>
+<h2>Probando</h2>
+<h2>Probando</h2>
+<h2>Probando</h2>
+<h2>Probando</h2>
+
+                </div>
             </div>
         )
     }

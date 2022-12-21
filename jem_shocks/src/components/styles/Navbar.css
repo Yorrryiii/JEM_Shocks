@@ -15,7 +15,7 @@
     font-family: 'Poppins','Open Sans', sans-serif;
 }
 
-a{
+#navigation a{
     float: left;
     margin-right: 40px;
     /* Para que no aparezca como que está subrayado [Hipervínculo] */
@@ -39,7 +39,7 @@ ul{
 }  
 
 /* Animacion del logo */
-img{
+#navigation img{
     vertical-align:middle;
     position: relative;
     width: 55px;
@@ -47,13 +47,13 @@ img{
     cursor: pointer;
     transition: 0.2s;
 }
-img:hover {
+#navigation img:hover {
     outline:3px solid #ffc800;
     outline-offset: 2px;
     opacity: 0.6;
 }
 
-img{
+#navigation img{
     border-radius: 50%;
 }
 

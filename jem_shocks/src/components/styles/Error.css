@@ -2,14 +2,30 @@
   /* Para alinear la imagen al centro de la pantalla */
   display: flex;
   justify-content: center; 
+  align-items: center;
 }
 
 #Error404NotFound {
   /* Agrandamos la imagen */
   width: 120%;
   height: 100%;
-  /* Centramos la imagen al centro de la pantalla */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+}
+
+img{
+  vertical-align:middle;
+  position: relative;
+  width: 55px;
+  outline: 2.5px solid transparent;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+img:hover {
+  outline:3px solid #ffc800;
+  outline-offset: 2px;
+  opacity: 0.6;
+}
+
+img{
+  border-radius: 50%;
 }

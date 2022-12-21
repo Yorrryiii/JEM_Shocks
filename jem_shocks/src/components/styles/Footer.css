@@ -4,9 +4,10 @@
     border-top: 1px solid #ffdc00;
     /* Le damos un estilo a la fuente */
     font-family: 'Poppins','Open Sans', sans-serif;
+    width: 100%;
 }
 
-p{
+#footer p{
     /* Alineamos el texto al centro de la pantalla */
     text-align: center;
     /* Ponemos el color de la fuente en color blanco */

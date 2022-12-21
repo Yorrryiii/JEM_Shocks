@@ -8,6 +8,7 @@ import Shop from './components/Shop';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Login from './components/Login';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
             <Route exact path="/JEM_SHOCKS/about" element={<About />} />
             <Route exact path="/JEM_SHOCKS/contact" element={<Contact />} />
 
-            <Route exact path="/JEM_SHOCKS/contact" element={<Contact />} />
+            <Route exact path="/JEM_SHOCKS/login" element={<Login />} />
 
             <Route path="/JEM_SHOCKS/*" element={<Error />} />
           </Routes>
