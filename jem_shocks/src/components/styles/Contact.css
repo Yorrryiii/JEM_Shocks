@@ -9,13 +9,13 @@
     padding: 0 15px;
 }
 
+/* Ajustamos el ancho de cada columna de nuestro div principal */
 #FormularioContacto{
     width: 73%;
 }
 
 #datos{
     width: 27%;
-    /* padding: 0 15px; */
 }
 
 #tituloForm{
