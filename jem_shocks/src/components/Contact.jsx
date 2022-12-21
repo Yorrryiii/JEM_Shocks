@@ -55,9 +55,9 @@ export class Contact extends Component {
                             </svg>
                             <div id='ShopAddress'>
                                 <h4>Shop address</h4>
-                                <p>Av. de la Industria, 1 </p>
-                                <p>28922 Alcorcón </p>
-                                <p>Madrid, Spain</p>
+                                <p>Mudejar's Motorway, km. 299</p>
+                                <p>50830 Villanueva de Gallego </p>
+                                <p>Zaragoza, Spain</p>
                             </div>
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-clock-fill" viewBox="0 0 16 16">
                                 <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
