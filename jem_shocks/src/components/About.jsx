@@ -6,7 +6,7 @@ export class About extends Component {
 
     render() {
         return (
-            
+
             <div id='cuerpo'>
                 {/*Preloader*/}
                 <div id="preloader">
@@ -20,28 +20,38 @@ export class About extends Component {
                 </div>
 
                 {/*Web Content*/}
-                <div id='content'>
-                    <div class ='features'>
-                     <h3 class = 'features-title'>Custom made</h3>
-                     <p class = 'features-content'>probando probando custom bla bla bla bla bla bla</p>
-                    </div>
-                    <div class ='features'>
-                     <h3 class = 'features-title'>Custom made</h3>
-                     <p class = 'features-content'>probando probando custom bla bla bla bla bla bla</p>
-                    </div>
-                    <div class ='features'>
-                     <h3 class = 'features-title'>Custom made</h3>
-                     <p class = 'features-content'>probando probando custom bla bla bla bla bla bla</p>
-                    </div>
-                    <div class ='features'>
-                     <h3 class = 'features-title'>Custom made</h3>
-                     <p class = 'features-content'>probando probando custom bla bla bla bla bla bla</p>
-                    </div>
-                </div>
+                <table class="tg">
+                    <thead>
+                        <tr>
+                            <td class="tg-cly1" colspan="4">Why Jem_Shocks</td>
+                            <td class="tg-nrix" rowspan="5">Foto</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-0lax" rowspan="2">logo1</td>
+                            <td class="tg-cly1">title1</td>
+                            <td class="tg-0lax" rowspan="2">logo3</td>
+                            <td class="tg-cly1">title3</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-cly1">content1</td>
+                            <td class="tg-cly1">content3</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-0lax" rowspan="2">logo2</td>
+                            <td class="tg-cly1">title2</td>
+                            <td class="tg-0lax" rowspan="2">logo4</td>
+                            <td class="tg-cly1">title4</td>
+                        </tr>
+                        <tr>
+                            <td class="tg-cly1">content2</td>
+                            <td class="tg-cly1">content4</td>
+                        </tr>
+                    </thead>
+                </table>
 
 
                 <div id='text'>
-                    <h1 id='titulo1'>Why <span id ='titulo2'>JEM Shöcks</span></h1>
+                    <h1 id='titulo1'>Why <span id='titulo2'>JEM Shöcks</span></h1>
                     <h2 id='cuerpo1'>
                         JEM SHÖCKS it is an online platform where you can buy different types of socks.
                         The shop offers a wide variety of styles, colours and sizes so that customers can choose the pair of socks that best suits their needs.
@@ -49,7 +59,7 @@ export class About extends Component {
                         The shop then sends the socks directly to the customer through the post.
                     </h2>
                 </div>
-                
+
                 {/*Lineas divisorias*/}
                 {/* <div>
                     <hr size="5px" width="50%" align="center" color="red"/>
@@ -59,7 +69,7 @@ export class About extends Component {
 
                 {/*Team*/}
                 <div id='text'>
-                    <h1 id='titulo1'>Our <span id ='titulo2'>Team</span></h1>
+                    <h1 id='titulo1'>Our <span id='titulo2'>Team</span></h1>
                 </div>
                 <div class="photos">
                     <div class="single-team-item">
@@ -67,7 +77,7 @@ export class About extends Component {
                         <h4>Mario Gómez <span>Founder</span></h4>
                         <ul class="social-link-team">
                             <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>                                
+                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
                             <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
                         </ul>
                     </div>
@@ -94,10 +104,10 @@ export class About extends Component {
                     </div>
 
                 </div>
-	
-               <h2 id='titulo2'>
-                Will you join us to get to know us?
-               </h2>
+
+                <h2 id='titulo2'>
+                    Will you join us to get to know us?
+                </h2>
             </div>
         )
     }
