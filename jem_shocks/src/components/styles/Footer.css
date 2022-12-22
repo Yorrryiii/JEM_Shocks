@@ -32,6 +32,7 @@
     /* Añadimos espacio entre las líneas */
     line-height: 1.5;
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 #footer hr{
@@ -42,6 +43,8 @@
     /* Pintamos la linea de color amarillo */
     background-color: #ffc800;
     border: none;
+    /* Para alinearlo a la izquierda */
+    margin: 0;
 }
 
 #footer li{
@@ -59,21 +62,43 @@
     margin-left: 2%;
 }
 
-#footer svg{
-    fill: #ffc800;
-    opacity: 1;
-    float: left;
+#LinksPaginas a {
+    text-decoration: none;
+    color: #fff;
 }
 
+#footer svg{
+    fill: #ffc800;
+    float: left;
+    /* Aumentamos el weight del icono */
+    font-size: 20px;
+    margin-top: 0;
+}
 
-/* #footer p{
-    /* Alineamos el texto al centro de la pantalla
-    text-align: center;
-    /* Ponemos el color de la fuente en color blanco
-    color: #fff;
-    font-size: 15px;
-    margin: 0px;
-    padding: 10px;
-    justify-content: center;
+#footer form{
+    display: flex;
     align-items: center;
-} */
+    background-color: #012738;
+    /* Redondeamos los bordes */
+    border-radius: 15px;
+}
+
+#newsletter{
+    padding: 15px;
+    width: auto;
+    height: 4%;
+    float: left;
+    margin-right: 3px;
+}
+
+#Subscribe a{
+    width: 20%;
+}
+
+#Subscribe svg{
+    fill: #ffc800;
+    width: 40%;
+    float: right;
+    background: transparent;
+}
+

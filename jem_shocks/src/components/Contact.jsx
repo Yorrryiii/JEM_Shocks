@@ -73,7 +73,7 @@ export class Contact extends Component {
                             </svg>
                             <div id='Contact'>
                                 <h4>Contact</h4>
-                                <p>Phone: +34 91 123 45 67</p>
+                                <p>Phone: +34 976 06 01 00</p>
                                 <p>Email:</p>
                                 <p>support@jem_shocks.com</p>
                             </div>
