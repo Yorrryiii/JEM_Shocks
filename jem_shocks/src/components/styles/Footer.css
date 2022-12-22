@@ -1,20 +1,53 @@
 #footer{
-    background-color: #3d3d3d;
-    /* Ponemos un borde en la parte de arriba de color amarillo */
+    background-color: #051922;
     border-top: 1px solid #ffdc00;
-    /* Le damos un estilo a la fuente */
     font-family: 'Poppins','Open Sans', sans-serif;
     width: 100%;
+    padding: 150px 0px;
+}
+
+#container{
+    width: 80%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#AboutUs, #GetInTouch, #Pages, #Subscribe{
+    padding: 0px 15px;
+    color: #fff;
+    width: 20%;
+}
+
+#footer h2{
+    font-size: 24px;
+    font-family: 'Poppins','Open Sans', sans-serif;
+    margin: 0px 0px 17.5px;
+    /* padding: 0px 0px 20px; */
 }
 
 #footer p{
-    /* Alineamos el texto al centro de la pantalla */
+    /* Añadimos espacio entre las líneas */
+    line-height: 1.5;
+}
+
+#footer hr{
+    /* Hacemos un poco más ancha la línea */
+    width: 2%;
+    /* Pintamos la linea de color amarillo */
+    background-color: #ffc800;
+}
+
+
+/* #footer p{
+    /* Alineamos el texto al centro de la pantalla
     text-align: center;
-    /* Ponemos el color de la fuente en color blanco */
+    /* Ponemos el color de la fuente en color blanco
     color: #fff;
     font-size: 15px;
     margin: 0px;
     padding: 10px;
     justify-content: center;
     align-items: center;
-}
+} */
