@@ -45,10 +45,10 @@
 }
 
 #footer li{
-    margin-top: 5%;
+    margin-top: 8%;
     margin-bottom: 8%;
-    /* margin-left: 2%; */
-    padding: 0px 0px 0px 20px;
+    margin-left: 4%;
+    padding: 1px 0px 0px 20px;
     list-style: none;
     justify-content: center;
 }
@@ -56,7 +56,7 @@
 #LinksPaginas{
     /* Centramos los elementos */
     align-items: center;
-    
+    margin-left: 2%;
 }
 
 #footer svg{
