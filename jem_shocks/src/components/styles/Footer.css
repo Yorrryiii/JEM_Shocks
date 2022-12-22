@@ -50,6 +50,10 @@
     list-style: none;
 }
 
+#footer svg{
+    fill: #ffc800;
+}
+
 
 /* #footer p{
     /* Alineamos el texto al centro de la pantalla

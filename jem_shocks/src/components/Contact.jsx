@@ -46,7 +46,7 @@ export class Contact extends Component {
                             </form>
                         </div>
                     </div>
-                    {/* div que engloba la columna de otros dats de interés */}
+                    {/* div que engloba la columna de otros datos de interés */}
                     <div id='datos'>
                         <div id='InformacionAdicional'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-pin-map-fill" viewBox="0 0 16 16">
