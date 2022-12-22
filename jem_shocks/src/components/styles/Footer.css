@@ -18,6 +18,7 @@
     padding: 0px 15px;
     color: #fff;
     width: 20%;
+    vertical-align: top;
 }
 
 #footer h2{
@@ -30,13 +31,23 @@
 #footer p{
     /* Añadimos espacio entre las líneas */
     line-height: 1.5;
+    margin-top: 5%;
 }
 
 #footer hr{
     /* Hacemos un poco más ancha la línea */
-    width: 2%;
+    width: 6%;
+    /* Hacemos que la línea sea más gruesa */
+    height: 2px;
     /* Pintamos la linea de color amarillo */
     background-color: #ffc800;
+}
+
+#footer li{
+    margin-top: 5%;
+    margin-bottom: 8%;
+    padding: 0px 0px 0px 20px;
+    list-style: none;
 }
 
 

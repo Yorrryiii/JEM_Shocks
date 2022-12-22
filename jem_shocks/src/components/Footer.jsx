@@ -17,7 +17,7 @@ export class Footer extends Component{
                             </p>
                         </td>
                         <td id='GetInTouch'>
-                            <h2>Get In Touch</h2>
+                            <h2>Get in Touch</h2>
                             <hr />
                             <p>Mudejar's Motorway, km. 299. Zaragoza</p>
                             <p>+34 91 123 45 67</p>
@@ -26,6 +26,10 @@ export class Footer extends Component{
                         <td id='Pages'>
                             <h2>Pages</h2>
                             <hr />
+                            <li>Home</li>
+                            <li>Shop</li>
+                            <li>About</li>
+                            <li>Contact</li>
                         </td>
                         <td id='Subscribe'>
                             <h2>Subscribe</h2>
