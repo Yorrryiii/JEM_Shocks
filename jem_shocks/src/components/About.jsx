@@ -24,8 +24,8 @@ export class About extends Component {
                     <thead>
                         <tr>
                             <td class="title" colspan="4"><h4 id='titulo1'>Why <span id='titulo2'>JEM Shöcks</span></h4></td>
-                            <td class="fotoWhyJem" rowspan="5">
-                                <img src="/images/AboutWhyJemFoto.jpg" alt="why-jem-shocks"/>
+                            <td rowspan="5">
+                                <img class="fotoWhyJem" src="/images/AboutWhyJemFoto.jpg" alt="why-jem-shocks"/>
                             </td>
                         </tr>
                         <tr>

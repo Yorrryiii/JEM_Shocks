@@ -5,13 +5,17 @@
   align-items: center;
 }
 
-#Error404NotFound {
-  /* Agrandamos la imagen */
-  width: 120%;
-  height: 100%;
+#error {
+  width: auto;
+  height: 800px;
+}
+.notFound{
+  vertical-align:middle;
+  width: 700px !important;
+  height: 700px !important;
 }
 
-img{
+.notFound{
   vertical-align:middle;
   position: relative;
   width: 55px;
@@ -20,12 +24,12 @@ img{
   transition: 0.2s;
 }
 
-img:hover {
+.notFound:hover {
   outline:3px solid #ffc800;
   outline-offset: 2px;
   opacity: 0.6;
 }
 
-img{
+.notFound{
   border-radius: 50%;
 }

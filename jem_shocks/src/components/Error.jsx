@@ -6,7 +6,7 @@ export class Error extends Component{
         return(
             <div id='error'>
                 <a href="/JEM_SHOCKS/">
-                    <img src="/images/NotFound.png" alt="JEM SHÖCKS LOGO" id='Error404NotFound' />
+                    <img src="/images/NotFound.png" alt="JEM SHÖCKS LOGO" class = "notFound" id='Error404NotFound' />
                 </a>
             </div>
         )

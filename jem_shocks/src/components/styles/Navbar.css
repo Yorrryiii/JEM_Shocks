@@ -39,7 +39,7 @@ ul{
 }  
 
 /* Animacion del logo */
-#navigation img{
+.logoNavbar{
     vertical-align:middle;
     position: relative;
     width: 55px;
@@ -47,14 +47,10 @@ ul{
     cursor: pointer;
     transition: 0.2s;
 }
-#navigation img:hover {
+.logoNavbar:hover {
     outline:3px solid #ffc800;
     outline-offset: 2px;
     opacity: 0.6;
-}
-
-#navigation img{
-    border-radius: 50%;
 }
 
 #home:hover, #shop:hover, #about:hover, #contact:hover {

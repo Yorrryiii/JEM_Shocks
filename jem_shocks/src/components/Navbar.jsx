@@ -29,7 +29,7 @@ export class Navbar extends Component {
                 <nav id='navigation'>
                     <ul>
                         <a href="/JEM_SHOCKS/">
-                            <img src="/images/LOGO.png" alt="JEM SHÖCKS LOGO" />
+                            <img class = "logoNavbar" src="/images/LOGO.png" alt="JEM SHÖCKS LOGO" />
                         </a>
 
                         <div id='parteDcha'>
