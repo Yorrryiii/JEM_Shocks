@@ -41,17 +41,28 @@
     height: 2px;
     /* Pintamos la linea de color amarillo */
     background-color: #ffc800;
+    border: none;
 }
 
 #footer li{
     margin-top: 5%;
     margin-bottom: 8%;
+    /* margin-left: 2%; */
     padding: 0px 0px 0px 20px;
     list-style: none;
+    justify-content: center;
+}
+
+#LinksPaginas{
+    /* Centramos los elementos */
+    align-items: center;
+    
 }
 
 #footer svg{
     fill: #ffc800;
+    opacity: 1;
+    float: left;
 }
 
 
