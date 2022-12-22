@@ -32,19 +32,34 @@
     font-style: italic;
 }
 
-/* Why jem shocks title */
-
-/* rest of colums for why jem shocks*/
+/* Why jem shocks */
 .tg {
     border-collapse: collapse;
     border-spacing: 0;
+    font-family: 'Poppins', 'Open Sans', sans-serif;
+    /* margin-left: 100px; */
+}
+
+/* why jem shocks title */
+.title {
+    text-align: left;
+    vertical-align: middle;
+    font-size: 40px;
+}
+#titulo1 {
+    font-size: 40px;
+    color: #000000;
+}
+
+#titulo2 {
+    font-size: 40px;
+    color: #ffc800;
 }
 
 .tg td {
     border-color: black;
     border-style: solid;
     border-width: 1px;
-    font-family: Arial, sans-serif;
     font-size: 14px;
     overflow: hidden;
     padding: 10px 5px;
@@ -62,15 +77,17 @@
     padding: 10px 5px;
     word-break: normal;
 }
-
-.tg .tg-cly1 {
-    text-align: left;
-    vertical-align: middle
+.secTittle{
+    font-size: 20px !important;
+    font-weight: 900 !important;
+    letter-spacing: 2px !important;
 }
 
-.tg .tg-nrix {
+
+.fotoWhyJem {
     text-align: center;
-    vertical-align: middle
+    vertical-align: middle;
+    
 }
 
 .tg .tg-0lax {
@@ -97,17 +114,6 @@
     box-sizing: border-box;
 } */
 
-#titulo1 {
-    /* Ampliamos el tamaño de letra */
-    /* padding-top: 80px; */
-    font-size: 60px;
-    color: #000000;
-}
-
-#titulo2 {
-    font-size: 60px;
-    color: #ffc800;
-}
 
 #cuerpo1 {
     margin: 20px;
