@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-/* #cuerpo{
-    
-} */
-
 #portada{
     width: 100%;
     height: 100%;
@@ -21,7 +17,7 @@
     /* Hacemos que la imagen se quede fija en la posición */
     background-attachment: fixed;
     /* Hacemos que la imagen sea mas oscura */
-    background-color: rgba(150, 150, 150, 0.5);
+    background-color: rgba(167, 167, 167, 0.5);
     /* Hacemos que la imagen sea translucida */
     background-blend-mode: overlay;
 }

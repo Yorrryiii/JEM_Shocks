@@ -32,7 +32,7 @@
 #primeraLinea, #segundaLinea{
     display: flex;
     justify-content: space-between;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
 }
 
 #nombre, #email, #telefono, #asunto{

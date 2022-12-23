@@ -25,7 +25,7 @@ export class Navbar extends Component {
 
     render() {
         return (
-            <div>
+            <div id='nav'>
                 <nav id='navigation'>
                     <ul>
                         <a href="/JEM_SHOCKS/">

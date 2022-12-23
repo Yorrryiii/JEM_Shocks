@@ -23,6 +23,21 @@ export class Home extends Component{
 <h2>Probando</h2>
 
                 </div>
+                <h2>Probando</h2>
+<h2>Probando</h2>
+<h2>Probando</h2>
+<h2>Probando</h2>
+<h2>Probando</h2>
+<h2>Probando</h2>
+<h2>Probando</h2>
+<h2>Probando</h2>
+<h2>Probando</h2>
+<h2>Probando</h2>
+<h2>Probando</h2>
+<h2>Probando</h2>
+<h2>Probando</h2>
+<h2>Probando</h2>
+<h2>Probando</h2>
             </div>
         )
     }
