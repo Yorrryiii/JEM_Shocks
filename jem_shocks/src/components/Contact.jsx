@@ -42,7 +42,7 @@ export class Contact extends Component {
                                     <textarea id='mensaje' name='mensaje' placeholder='Message' cols='30' rows='10' required />
                                 </p>
                                 {/* Apartado para enviar el formulario */}
-                                <input type='submit' id='enviar' name='enviar' value='Submit' />
+                                <input type='submit' id='enviar' name='enviar' value='SUBMIT' />
                             </form>
                         </div>
                     </div>
