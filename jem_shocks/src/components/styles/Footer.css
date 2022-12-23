@@ -79,7 +79,6 @@
     display: flex;
     align-items: center;
     background-color: #012738;
-    /* Redondeamos los bordes */
     border-radius: 15px;
 }
 
@@ -89,10 +88,11 @@
     height: 4%;
     float: left;
     margin-right: 3px;
+    display: flex;
 }
 
 #Subscribe a{
-    width: 20%;
+    margin-right: 20px;
 }
 
 #Subscribe svg{
