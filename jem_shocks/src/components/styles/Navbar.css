@@ -33,23 +33,25 @@ ul{
     width: 65%;
 }
 
-#imagen{
-    /* Alineamos el logo a la izquierda */
+/* #imagen{
+    Alineamos el logo a la izquierda
     float: left;
-}  
+}   */
 
 /* Animacion del logo */
 .logoNavbar{
     vertical-align:middle;
     position: relative;
-    width: 55px;
+    width: 58px;
     outline: 2.5px solid transparent;
     cursor: pointer;
     transition: 0.2s;
+    border-radius: 50%;
 }
+
 .logoNavbar:hover {
-    outline:3px solid #ffc800;
-    outline-offset: 2px;
+    outline: 3px solid #ffc800;
+    outline-offset: 3px;
     opacity: 0.6;
 }
 
