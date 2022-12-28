@@ -45,7 +45,7 @@ export class About extends Component {
                             <td class="secTittle">Best Prices</td>
                         </tr>
                         <tr>
-                            <td class="tg-cly1">content1</td>
+                            <td class="tg-cly1">Your order shipped directly to your place within 2 to 4 labourable days</td>
                             <td class="tg-cly1">content3</td>
                         </tr>
                         <tr>
@@ -55,12 +55,14 @@ export class About extends Component {
                                 </svg>
                             </td>
                             <td class="secTittle">Custom Made</td>
-                            <td class="tg-0lax" rowspan="2">logo4</td>
+                            <td class="tg-0lax" rowspan="2">
+                                
+                            </td>
                             <td class="secTittle">Free Returns</td>
                         </tr>
                         <tr>
-                            <td class="tg-cly1">content2</td>
-                            <td class="tg-cly1">content4</td>
+                            <td class="tg-cly1">The best custom made designs with natural quality materials. Have a new design in mind? send us an e-mail.</td>
+                            <td class="tg-cly1">If you got the wrong size or you would like a new design the first return is completely cost free.</td>
                         </tr>
                     </thead>
                 </table>
