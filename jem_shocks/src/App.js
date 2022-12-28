@@ -9,6 +9,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Login from './components/Login';
+import Copyright from './components/Copyright';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           </Routes>
 
           <Footer />
+          <Copyright/>
       </div>
     </Router>
   );

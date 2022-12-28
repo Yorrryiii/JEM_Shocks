@@ -42,11 +42,11 @@ export class Contact extends Component {
                                     <textarea id='mensaje' name='mensaje' placeholder='Message' cols='30' rows='10' required />
                                 </p>
                                 {/* Apartado para enviar el formulario */}
-                                <input type='submit' id='enviar' name='enviar' value='Submit' />
+                                <input type='submit' id='enviar' name='enviar' value='SUBMIT' />
                             </form>
                         </div>
                     </div>
-                    {/* div que engloba la columna de otros dats de interés */}
+                    {/* div que engloba la columna de otros datos de interés */}
                     <div id='datos'>
                         <div id='InformacionAdicional'>
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-pin-map-fill" viewBox="0 0 16 16">
@@ -73,7 +73,7 @@ export class Contact extends Component {
                             </svg>
                             <div id='Contact'>
                                 <h4>Contact</h4>
-                                <p>Phone: +34 91 123 45 67</p>
+                                <p>Phone: +34 976 06 01 00</p>
                                 <p>Email:</p>
                                 <p>support@jem_shocks.com</p>
                             </div>

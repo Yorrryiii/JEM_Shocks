@@ -1,20 +1,104 @@
 #footer{
-    background-color: #3d3d3d;
-    /* Ponemos un borde en la parte de arriba de color amarillo */
+    background-color: #051922;
     border-top: 1px solid #ffdc00;
-    /* Le damos un estilo a la fuente */
     font-family: 'Poppins','Open Sans', sans-serif;
     width: 100%;
+    padding: 150px 0px;
+}
+
+#container{
+    width: 80%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#AboutUs, #GetInTouch, #Pages, #Subscribe{
+    padding: 0px 15px;
+    color: #fff;
+    width: 20%;
+    vertical-align: top;
+}
+
+#footer h2{
+    font-size: 24px;
+    font-family: 'Poppins','Open Sans', sans-serif;
+    margin: 0px 0px 17.5px;
+    /* padding: 0px 0px 20px; */
 }
 
 #footer p{
-    /* Alineamos el texto al centro de la pantalla */
-    text-align: center;
-    /* Ponemos el color de la fuente en color blanco */
-    color: #fff;
-    font-size: 15px;
-    margin: 0px;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
+    /* Añadimos espacio entre las líneas */
+    line-height: 1.5;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
+
+#footer hr{
+    /* Hacemos un poco más ancha la línea */
+    width: 6%;
+    /* Hacemos que la línea sea más gruesa */
+    height: 2px;
+    /* Pintamos la linea de color amarillo */
+    background-color: #ffc800;
+    border: none;
+    /* Para alinearlo a la izquierda */
+    margin: 0;
+}
+
+#footer li{
+    margin-top: 8%;
+    margin-bottom: 8%;
+    margin-left: 4%;
+    padding: 1px 0px 0px 20px;
+    list-style: none;
+    justify-content: center;
+}
+
+#LinksPaginas{
+    /* Centramos los elementos */
+    align-items: center;
+    margin-left: 2%;
+}
+
+#LinksPaginas a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#footer svg{
+    fill: #ffc800;
+    float: left;
+    /* Aumentamos el weight del icono */
+    font-size: 20px;
+    margin-top: 0;
+}
+
+#footer form{
+    display: flex;
+    align-items: center;
+    background-color: #012738;
+    border-radius: 15px;
+}
+
+#newsletter{
+    padding: 15px;
+    width: auto;
+    height: 4%;
+    float: left;
+    margin-right: 3px;
+    display: flex;
+}
+
+#Subscribe a{
+    margin-right: 20px;
+}
+
+#Subscribe svg{
+    fill: #ffc800;
+    width: 40%;
+    float: right;
+    background: transparent;
+}
+
