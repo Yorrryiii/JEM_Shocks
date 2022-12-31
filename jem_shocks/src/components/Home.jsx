@@ -9,6 +9,12 @@ export class Home extends Component{
                     <h5 id='sale'>WE PERSONALISE YOUR STYLE</h5>
                     <h1 id='aboutus'>This is JEM SHÖCKS</h1>
                 </div>
+                <div id='segundaSeccion'>
+                    probando
+                    probando
+                    probando
+                    probando
+                </div>
             </div>
         )
     }
