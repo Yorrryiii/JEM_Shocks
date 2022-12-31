@@ -6,38 +6,9 @@ export class Home extends Component{
         return(
             <div id='cuerpo'>
                 <div id='portada'>
-<h2>Probando</h2>
-<h2>Probando</h2>
-<h2>Probando</h2>
-<h2>Probando</h2>
-<h2>Probando</h2>
-<h2>Probando</h2>
-<h2>Probando</h2>
-<h2>Probando</h2>
-<h2>Probando</h2>
-<h2>Probando</h2>
-<h2>Probando</h2>
-<h2>Probando</h2>
-<h2>Probando</h2>
-<h2>Probando</h2>
-<h2>Probando</h2>
-
+                    <h5 id='sale'>WE PERSONALISE YOUR STYLE</h5>
+                    <h1 id='aboutus'>This is JEM SHÖCKS</h1>
                 </div>
-                <h2>Probando</h2>
-<h2>Probando</h2>
-<h2>Probando</h2>
-<h2>Probando</h2>
-<h2>Probando</h2>
-<h2>Probando</h2>
-<h2>Probando</h2>
-<h2>Probando</h2>
-<h2>Probando</h2>
-<h2>Probando</h2>
-<h2>Probando</h2>
-<h2>Probando</h2>
-<h2>Probando</h2>
-<h2>Probando</h2>
-<h2>Probando</h2>
             </div>
         )
     }
