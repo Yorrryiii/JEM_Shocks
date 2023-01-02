@@ -43,15 +43,44 @@
 
 #segundaSeccion h3{
     font-size: 18px;
-    margin: 0px 0px 4px;
+    margin: 4px 0px 4px;
+    line-height: 22px;
+    text-align: left;
+}
+
+#InfoPrincipal h3:hover{
+    color: #ffc800;
 }
 
 #segundaSeccion p{
     font-size: 14px;
+    white-space: nowrap;
+    color: #051922;
+    text-align: left;
 }
 
 #InfoPrincipal{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#InfoPrincipal svg{
+    width: 15%;
+    height: 100%;
+    fill: #ffc800;
+    /* Ponemos el contenido a la izq */
+    float: left;
+    margin: 0px 20px 0px 0px;
+}
+
+#InfoPrincipal svg:hover{
+    fill: #051922;
+}
+
+#terceraSeccion{
+    margin: 150px 0px;
 }
