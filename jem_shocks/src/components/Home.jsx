@@ -41,7 +41,9 @@ export class Home extends Component {
                 </div>
 
                 <div id='terceraSeccion'>
-
+                    <h3 id='tituloProductos'>Our <span id='cuerpoProductos'>Products</span></h3>
+                    <hr />
+                    <p>At JEM Shöcks, we use organic materials to make your socks of perfect quality, wearing among many other styles, socks like these:</p>
                 </div>
             </div>
         )

@@ -32,6 +32,10 @@
     background-blend-mode: overlay;
 }
 
+/* ----------------------------------------------------- */
+/* ---------------INFORMACIÓN PRINCIPAL---------------- */
+/* ----------------------------------------------------- */
+
 #segundaSeccion{
     padding: 80px 0px;
     background-color: #f5f5f5;
@@ -81,6 +85,42 @@
     fill: #051922;
 }
 
+/* ----------------------------------------------------- */
+/* ----------PRESENTACIÓN DE VARIOS PRODUCTOS----------- */
+/* ----------------------------------------------------- */
+
 #terceraSeccion{
     margin: 150px 0px;
+}
+
+#tituloProductos{
+    color: #ffc800;
+}
+
+#cuerpoProductos{
+    color: black;
+}
+
+#terceraSeccion h3{
+    font-size: 50px;
+    text-align: center;
+}
+
+#terceraSeccion hr{
+    /* Hacemos un poco más ancha la línea */
+    width: 6%;
+    /* Hacemos que la línea sea más gruesa */
+    height: 4px;
+    /* Pintamos la linea de color amarillo */
+    background-color: #ffc800;
+    border: none;
+    /* Alineamos al centro de la ventana */
+    margin: 0 auto;
+    margin-top: 8px;
+}
+
+#terceraSeccion p{
+    font-size: 17px;
+    text-align: center;
+    margin: 18px 150px 0px 150px;
 }
