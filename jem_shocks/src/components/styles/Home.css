@@ -145,6 +145,7 @@
     background-color: #f8f8f8;
     /* Hacemos una sobra redondeada de color ffc800 */
     box-shadow: 0px 0px 15px 0px #ffeca9;
+    height: 85vh;
 }
 
 #ejCalcetines1:hover, #ejCalcetines2:hover, #ejCalcetines3:hover{
@@ -165,12 +166,12 @@
 
 #ejemplosCalcetines p{
     font-size: 30px;
-    margin: 0px 0px 15px;
+    margin: 0px 0px 20px;
     /* Ponemos la letra en negrita */
     font-weight: 700;
 }
 
-#ejemplosCalcetines button{
+/* #ejemplosCalcetines button{
     background-color: #ffc800;
     border: none;
     padding: 10px 20px;
@@ -178,9 +179,47 @@
     border-radius: 5px;
     margin: 0px 0px 40px;
 
-    /* Ponemos el boton al final del div */
+    /* Ponemos el boton al final del div 
     display: block;
     margin-left: auto;
     margin-right: auto;
 
+} */
+
+#botonTienda{
+    background-color: #ffc800; 
+    border-radius: 29px; 
+    border: 1px solid #ffc800; 
+    color: black; 
+    font-size: 15px; 
+    padding: 10px 45px; 
+    cursor: pointer; 
+    transition: 0.3s; 
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+    
+#botonTienda:hover{ 
+    background-color: white; 
+    color: #081F2D; 
+    border-color: #081F2D; 
+    transition: 0.3s; 
+}
+
+#botonTienda svg{
+    margin-right: 8px;
+    width: 20px;
+    height: 30px;
+}
+
+#VerTienda{
+    /* Quitamos el subrayado */
+    text-decoration: none;
+    /* Quitamos todo lo que le afecte al boton */
+    outline: none;
+    color: black;
+    margin-bottom: 0px;
 }
