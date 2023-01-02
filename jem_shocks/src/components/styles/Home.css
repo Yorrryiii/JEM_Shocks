@@ -36,3 +36,22 @@
     padding: 80px 0px;
     background-color: #f5f5f5;
 }
+
+#segundaSeccion td{
+    padding: 0px 15px;
+}
+
+#segundaSeccion h3{
+    font-size: 18px;
+    margin: 0px 0px 4px;
+}
+
+#segundaSeccion p{
+    font-size: 14px;
+}
+
+#InfoPrincipal{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
