@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom';
 import './styles/Home.css';
 
 export class Home extends Component {
@@ -44,6 +45,31 @@ export class Home extends Component {
                     <h3 id='tituloProductos'>Our <span id='cuerpoProductos'>Products</span></h3>
                     <hr />
                     <p>At JEM Shöcks, we use organic materials to make your socks of perfect quality, wearing among many other styles, socks like these:</p>
+
+                    {/* Ponemos 3 ejemplos de calcetines */}
+                    <div id='ejemplosCalcetines'>
+                        <div id='ejCalcetines1'>
+                            <img src="/images/ejCalcetines1.png" alt="Socks 1"/>
+                            <h3>Fast Food</h3>
+                            <p>3,95€</p>
+                            {/* Añadimos un boton que nos redireccione a la pagina de shop */}
+                            <button>
+                                <Link to="/JEM_SHOCKS/shop" id='home' onClick={'/JEM_SHOCKS/shop'}>View in shop</Link>
+                            </button>
+                        </div>
+
+                        <div id='ejCalcetines2'>
+                            <img src="/images/ejCalcetines2.png" alt="Socks 1"/>
+                            <h3>Bananas & Monkeys</h3>
+                            <p>4,95€</p>
+                        </div>
+
+                        <div id='ejCalcetines1'>
+                            <img src="/images/ejCalcetines3.png" alt="Socks 1"/>
+                            <h3>Minions Skaters</h3>
+                            <p>4,50€</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         )

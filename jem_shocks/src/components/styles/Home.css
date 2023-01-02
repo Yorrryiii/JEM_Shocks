@@ -38,7 +38,7 @@
 
 #segundaSeccion{
     padding: 80px 0px;
-    background-color: #f5f5f5;
+    background-color: #f8f8f8;
 }
 
 #segundaSeccion td{
@@ -101,6 +101,15 @@
     color: black;
 }
 
+/* Para intercambiar los colores del titulo cuando el usuario haga hover sobre el titulo */
+#tituloProductos:hover{
+    color: black;
+}
+
+#tituloProductos:hover #cuerpoProductos {
+    color: #ffc800;
+}
+
 #terceraSeccion h3{
     font-size: 50px;
     text-align: center;
@@ -122,5 +131,57 @@
 #terceraSeccion p{
     font-size: 17px;
     text-align: center;
-    margin: 18px 150px 0px 150px;
+    margin: 18px 150px 90px 150px;
+}
+
+#ejemplosCalcetines{
+    padding: 0px 15px;
+    column-count: 3;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#ejCalcetines1, #ejCalcetines2, #ejCalcetines3{
+    background-color: #f8f8f8;
+    /* Hacemos una sobra redondeada de color ffc800 */
+    box-shadow: 0px 0px 15px 0px #ffeca9;
+}
+
+#ejCalcetines1:hover, #ejCalcetines2:hover, #ejCalcetines3:hover{
+    box-shadow: 0px 0px 15px 0px rgb(148, 148, 148);
+}
+
+#ejemplosCalcetines img{
+    margin: 0px 0px 40px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#ejemplosCalcetines h3{
+    font-size: 20px;
+    margin: 0px 0px 15px;
+}
+
+#ejemplosCalcetines p{
+    font-size: 30px;
+    margin: 0px 0px 15px;
+    /* Ponemos la letra en negrita */
+    font-weight: 700;
+}
+
+#ejemplosCalcetines button{
+    background-color: #ffc800;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin: 0px 0px 40px;
+
+    /* Ponemos el boton al final del div */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
