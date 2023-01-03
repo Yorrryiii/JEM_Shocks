@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
+import OpinionCarousel from './Carousel';
 import './styles/Home.css';
 
 export class Home extends Component {
 
     // CUENTA ATRAS PARA FIN DE LA OFERTA 
     componentDidMount() {
-        const countDownDate = new Date().getTime() + 10 * 24 * 60 * 60 * 1000;
+        const countDownDate = new Date().getTime() + (9 * 24 * 60 * 60 * 1000) + (13 * 60 * 60 * 1000) + (38 * 60 * 1000) + (17 * 1000);
 
         const x = setInterval(() => {
             const now = new Date().getTime();
@@ -153,21 +154,8 @@ export class Home extends Component {
                 </div>
 
                 {/* Carrousel de Opiniones */}
-                <div id='quintaSeccion'>
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="/images/opinion1.jpeg" class="d-block w-100" alt="..."/>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="/images/opinion2.jpeg" class="d-block w-100" alt="..."/>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="/images/opinion3.jpeg" class="d-block w-100" alt="..."/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <OpinionCarousel/>
+
             </div>
         )
     }
