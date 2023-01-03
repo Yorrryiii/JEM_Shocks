@@ -249,3 +249,14 @@
 #cuartaSeccion p{
     line-height: 30px;
 }
+
+#cuartaSeccion ul{
+    /* Quitamos los guiones de la lista */
+    list-style-type: none;
+    /* Ponemos cada li en línea */
+    display: flex;
+}
+
+#cuartaSeccion li{
+    padding: 24px;
+}
