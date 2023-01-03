@@ -8,7 +8,7 @@ export class Copyright extends Component {
             <div id='copyright'>
                 <div id='autores'>
                     <p>
-                        Copyrights © 2022 - JEM SHÖCKS, All Rights Reserved.
+                        Copyrights © 2022/2023 - JEM SHÖCKS, All Rights Reserved.
                     </p>
                     <p>
                         Work done by: Elena Rozas, Jorge Serrano & Mario Gómez

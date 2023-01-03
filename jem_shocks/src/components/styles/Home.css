@@ -250,14 +250,27 @@
     line-height: 30px;
 }
 
-#cuartaSeccion ul{
+#countdown{
     /* Quitamos los guiones de la lista */
     list-style-type: none;
     /* Ponemos cada li en línea */
     display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-#cuartaSeccion li{
-    padding: 24px;
+#countdown li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-transform: uppercase;
+    padding: 0px 24px;
 }
+
+#countdown li span {
+    font-size: 2em;
+    position: absolute;
+    top: -1em;
+}
+
