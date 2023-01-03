@@ -7,7 +7,7 @@ export class Home extends Component {
 
     // CUENTA ATRAS PARA FIN DE LA OFERTA 
     componentDidMount() {
-        const countDownDate = new Date().getTime() + (9 * 24 * 60 * 60 * 1000) + (13 * 60 * 60 * 1000) + (38 * 60 * 1000) + (17 * 1000);
+        const countDownDate = new Date().getTime() + (6 * 24 * 60 * 60 * 1000) + (13 * 60 * 60 * 1000) + (38 * 60 * 1000) + (17 * 1000);
 
         const x = setInterval(() => {
             const now = new Date().getTime();
