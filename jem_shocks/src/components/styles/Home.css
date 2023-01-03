@@ -189,10 +189,12 @@
 }
     
 #botonTienda:hover{ 
-    background-color: white; 
+    background-color: transparent; 
     color: #081F2D; 
     border-color: #081F2D; 
     transition: 0.3s; 
+    /* hacemos negrita la letra */
+    font-weight: 700;
 }
 
 #botonTienda svg{
