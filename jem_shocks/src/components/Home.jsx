@@ -157,13 +157,13 @@ export class Home extends Component {
                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="..." class="d-block w-100" alt="..."/>
+                                <img src="/images/opinion1.jpeg" class="d-block w-100" alt="..."/>
                             </div>
                             <div class="carousel-item">
-                                <img src="..." class="d-block w-100" alt="..."/>
+                                <img src="/images/opinion2.jpeg" class="d-block w-100" alt="..."/>
                             </div>
                             <div class="carousel-item">
-                                <img src="..." class="d-block w-100" alt="..."/>
+                                <img src="/images/opinion3.jpeg" class="d-block w-100" alt="..."/>
                             </div>
                         </div>
                     </div>
