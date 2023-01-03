@@ -235,7 +235,7 @@
 }
 
 #cuartaSeccion img{
-    width: 50%;
+    width: 60%;
     margin: 40px 0px 0px;
     padding: 0px 0px 15px;
     /* Alineamos la imagen al centro */
@@ -258,6 +258,18 @@
 
 #cuartaSeccion p{
     line-height: 30px;
+}
+
+#precioAnterior, #precioActual{
+    display: inline-block;
+}
+
+#precioAnterior{
+    font-size: 30px;
+    /* Tachamos la letra */
+    text-decoration: line-through red;
+    color: #a9a9a9;
+    margin-right: 20px;
 }
 
 #countdown{

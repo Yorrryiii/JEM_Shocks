@@ -129,6 +129,9 @@ export class Home extends Component {
                             <h4>MOTORBIKE</h4>
                             <p>Are you a motorbike lover? So... these socks are for you! With their unique and novel design they add a bit of fun to your outfits. Don't think twice and be the coolest at your favourite sport and the most original at that upcoming event!</p>
                             <br />
+                            {/* Ponemos un h3 tachado que ponga 4,95€ */}
+                            <h2 id='precioAnterior'>4,95€</h2>
+                            <h3 id='precioActual'>3,95€</h3>
                             <p><b>Take advantage of this offer!</b></p>
                             {/* Cuenta atrás de la oferta */}
                             <ul id='countdown'>
