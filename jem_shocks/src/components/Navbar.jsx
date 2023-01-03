@@ -34,7 +34,7 @@ export class Navbar extends Component {
 
                         <div id='parteDcha'>
                             {/* Insertamos la lupa */}
-                            <Busqueda />
+                            {/* <Busqueda /> */}
 
                             {/* Insertamos el carrito de la compra */}
                                 {/* <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="carrito" viewBox="0 0 16 16">
@@ -49,7 +49,7 @@ export class Navbar extends Component {
                             <Link to="/JEM_SHOCKS/contact" id='contact' onClick={'/JEM_SOCKS/contact'}>Contact</Link>
                         </div>
                     </ul>
-                    <Link to="/JEM_SHOCKS/login/" id='login'><Login /> </Link>
+                    {/* <Link to="/JEM_SHOCKS/login/" id='login'><Login /> </Link> */}
                 </nav>
             </div>
         )
