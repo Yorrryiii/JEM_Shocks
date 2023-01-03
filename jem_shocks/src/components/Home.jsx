@@ -7,7 +7,7 @@ export class Home extends Component {
         return (
             <div id='cuerpo'>
                 <div id='portada'>
-                    <h5 id='sale'>WE PERSONALISE YOUR STYLE</h5>
+                    <h5 id='sale'>WE CUSTOMIZE YOUR STYLE</h5>
                     <h1 id='tituloPrincipal'>This is JEM SHÖCKS</h1>
                 </div>
 

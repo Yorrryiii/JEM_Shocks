@@ -143,7 +143,7 @@
 
 #ejCalcetines1, #ejCalcetines2, #ejCalcetines3{
     background-color: #f8f8f8;
-    /* Hacemos una sobra redondeada de color ffc800 */
+    border-radius: 15px;
     box-shadow: 0px 0px 15px 0px #ffeca9;
     height: 85vh;
 }
@@ -153,6 +153,8 @@
 }
 
 #ejemplosCalcetines img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     margin: 0px 0px 40px;
     width: 100%;
     margin-left: auto;
@@ -167,24 +169,8 @@
 #ejemplosCalcetines p{
     font-size: 30px;
     margin: 0px 0px 20px;
-    /* Ponemos la letra en negrita */
     font-weight: 700;
 }
-
-/* #ejemplosCalcetines button{
-    background-color: #ffc800;
-    border: none;
-    padding: 10px 20px;
-    font-size: 15px;
-    border-radius: 5px;
-    margin: 0px 0px 40px;
-
-    /* Ponemos el boton al final del div 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-} */
 
 #botonTienda{
     background-color: #ffc800; 
@@ -222,4 +208,5 @@
     outline: none;
     color: black;
     margin-top: 4px;
+    font-family: 'Poppins', sans-serif;
 }
