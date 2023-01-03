@@ -62,7 +62,7 @@ export class Home extends Component {
                         </div>
 
                         <div id='ejCalcetines2'>
-                            <img src="/images/ejCalcetines2.png" alt="Socks 1" />
+                            <img src="/images/ejCalcetines2.png" alt="Socks 2" />
                             <h3>Bananas & Monkeys</h3>
                             <p>4,95€</p>
                             <button id='botonTienda'>
@@ -74,7 +74,7 @@ export class Home extends Component {
                         </div>
 
                         <div id='ejCalcetines1'>
-                            <img src="/images/ejCalcetines3.png" alt="Socks 1" />
+                            <img src="/images/ejCalcetines3.png" alt="Socks 3" />
                             <h3>Minions Skaters</h3>
                             <p>4,50€</p>
                             <button id='botonTienda'>
@@ -87,8 +87,19 @@ export class Home extends Component {
                     </div>
                 </div>
 
-                <div>
-
+                <div id='cuartaSeccion'>
+                    <div>
+                        <img src="/images/ejCalcetines4.png" alt="Socks 4" />
+                    </div>
+                    <div>
+                        <div id='ProductoMes'>
+                            <h3 id='tituloProductos'>Deal <span id='cuerpoProductos'>of the month</span></h3>
+                            <h4>MOTORBIKE</h4>
+                            <p>Are you a motorbike lover? So... these socks are for you! With their unique and novel design they add a bit of fun to your outfits. Don't think twice and be the coolest at your favourite sport and the most original at that upcoming event!</p>
+                            <br/>
+                            <p><b>Take advantage of this offer!</b></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         )
