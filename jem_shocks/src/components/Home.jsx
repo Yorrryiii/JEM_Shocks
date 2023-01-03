@@ -3,6 +3,31 @@ import { Link } from 'react-router-dom';
 import './styles/Home.css';
 
 export class Home extends Component {
+
+    componentDidMount() {
+        const countDownDate = new Date().getTime() + 10 * 24 * 60 * 60 * 1000;
+
+        const x = setInterval(() => {
+            const now = new Date().getTime();
+            const distance = countDownDate - now;
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("days").innerHTML = days;
+            document.getElementById("hours").innerHTML = hours;
+            document.getElementById("minutes").innerHTML = minutes;
+            document.getElementById("seconds").innerHTML = seconds;
+
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("countdown").innerHTML = "--";
+            }
+        }, 1000);
+    }
+
     render() {
         return (
             <div id='cuerpo'>
@@ -96,8 +121,15 @@ export class Home extends Component {
                             <h3 id='tituloProductos'>Deal <span id='cuerpoProductos'>of the month</span></h3>
                             <h4>MOTORBIKE</h4>
                             <p>Are you a motorbike lover? So... these socks are for you! With their unique and novel design they add a bit of fun to your outfits. Don't think twice and be the coolest at your favourite sport and the most original at that upcoming event!</p>
-                            <br/>
+                            <br />
                             <p><b>Take advantage of this offer!</b></p>
+                            {/* Cuenta atrás de la oferta */}
+                            <ul>
+                                <li><span id="days"></span>days</li>
+                                <li><span id="hours"></span>Hours</li>
+                                <li><span id="minutes"></span>Minutes</li>
+                                <li><span id="seconds"></span>Seconds</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
