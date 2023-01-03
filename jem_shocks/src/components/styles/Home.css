@@ -221,5 +221,5 @@
     /* Quitamos todo lo que le afecte al boton */
     outline: none;
     color: black;
-    margin-bottom: 0px;
+    margin-top: 4px;
 }
