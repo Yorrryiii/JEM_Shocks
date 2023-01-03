@@ -148,6 +148,11 @@ export class Home extends Component {
                         </div>
                     </div>
                 </div>
+
+                {/* Carrousel de Opiniones */}
+                <div id='quintaSeccion'>
+
+                </div>
             </div>
         )
     }
