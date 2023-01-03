@@ -230,9 +230,14 @@
 }
 
 #cuartaSeccion img{
-    width: 40%;
+    width: 50%;
     margin: 40px 0px 0px;
     padding: 0px 0px 15px;
+    /* Alineamos la imagen al centro */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
 }
 
 #cuartaSeccion h3{
@@ -274,3 +279,32 @@
     top: -1em;
 }
 
+#botonTienda{
+    background-color: #ffc800; 
+    border-radius: 29px; 
+    border: 1px solid #ffc800; 
+    color: black; 
+    font-size: 15px; 
+    padding: 10px 45px; 
+    cursor: pointer; 
+    transition: 0.3s; 
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+    
+#botonTienda:hover{ 
+    background-color: transparent; 
+    color: #081F2D; 
+    border-color: #081F2D; 
+    transition: 0.5s; 
+    font-weight: 600;
+}
+
+#botonTienda svg{
+    margin-right: 8px;
+    width: 20px;
+    height: 30px;
+}

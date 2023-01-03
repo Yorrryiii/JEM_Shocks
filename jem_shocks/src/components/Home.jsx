@@ -4,6 +4,7 @@ import './styles/Home.css';
 
 export class Home extends Component {
 
+    // CUENTA ATRAS PARA FIN DE LA OFERTA 
     componentDidMount() {
         const countDownDate = new Date().getTime() + 10 * 24 * 60 * 60 * 1000;
 
