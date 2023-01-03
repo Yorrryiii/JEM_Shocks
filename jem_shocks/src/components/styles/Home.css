@@ -193,8 +193,7 @@
     color: #081F2D; 
     border-color: #081F2D; 
     transition: 0.3s; 
-    /* hacemos negrita la letra */
-    font-weight: 700;
+    font-weight: 600;
 }
 
 #botonTienda svg{
