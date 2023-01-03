@@ -1,10 +1,13 @@
 #carousel{
-    margin: 150px 0px;
+    margin: 120px 0px;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    height: 250px;
+    height: 300px;
+    overflow: hidden;
+    /* Hacemos qeu no se pueda seleccionar nada del texto */
+    user-select: none;
 }
 
 #carousel img{
@@ -22,7 +25,6 @@
     align-items: center;
     position: absolute;
     top: 100%;
-    /* overflow: hidden; */
     width: 100%;
     transition: top 0.3s ease-in-out;
 }

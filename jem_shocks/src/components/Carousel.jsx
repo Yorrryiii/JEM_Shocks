@@ -13,9 +13,6 @@ export class OpinionCarousel extends React.Component {
             // Aseguramos que la opinión actual siempre esté entre 0 y el número total de opiniones
             currentOpinion = (currentOpinion + totalOpinions) % totalOpinions;
             // Ocultamos todas las opiniones
-            //   for (let i = 0; i < totalOpinions; i++) {
-            //     document.getElementById('opinion-' + i).style.top = '100%';
-            //   }
             for (let i = 0; i < totalOpinions; i++) {
                 if (i !== currentOpinion) {
                     document.getElementById('opinion-' + i).style.display = 'none';
@@ -31,22 +28,10 @@ export class OpinionCarousel extends React.Component {
         // Ocultamos todas las opiniones al inicio
         changeOpinion(0);
     
-        // Luego, podemos utilizar setInterval para cambiar la opinión cada 6 segundos
-        // setInterval(() => {
-        //   changeOpinion(1);
-        // }, 6000);
-
-        // Además, podemos utilizar addEventListener para detectar cuando se hace scroll en el carrusel
-        // y cambiar la opinión en consecuencia
-        // const carouselElement = document.getElementById('carousel');
-        // carouselElement.addEventListener('scroll', () => {
-        //     if (carouselElement.scrollTop > 50) {
-        //         changeOpinion(1);
-        //     } else if (carouselElement.scrollTop < -50) {
-        //         changeOpinion(-1);
-        //     }
-        // });
-
+        // Luego, podemos utilizar setInterval para cambiar la opinión cada 7 segundos
+        setInterval(() => {
+          changeOpinion(1);
+        }, 7000);
     }
 
     render() {
