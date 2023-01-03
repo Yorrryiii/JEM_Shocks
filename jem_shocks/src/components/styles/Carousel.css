@@ -4,16 +4,17 @@
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    height: 300px;
+    height: 20em;
     overflow: hidden;
-    /* Hacemos qeu no se pueda seleccionar nada del texto */
     user-select: none;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 15px 0px rgb(235, 235, 235);
 }
 
 #carousel img{
     border-radius: 60px;
     width: 8%;
-    margin: 0px 0px 20px;
+    margin: 18px 0px 30px;
 }
 
 #opinion-0, #opinion-1, #opinion-2{
@@ -26,7 +27,7 @@
     position: absolute;
     top: 100%;
     width: 100%;
-    transition: top 0.3s ease-in-out;
+    /* transition: top 0.3s ease-in-out; */
 }
 
 #opinion-0 h3, #opinion-1 h3, #opinion-2 h3{
