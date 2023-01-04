@@ -30,6 +30,9 @@
     background-color: rgba(167, 167, 167, 0.5);
     /* Hacemos que la imagen sea translucida */
     background-blend-mode: overlay;
+/* 
+    position: fixed;
+    z-index: -1; */
 }
 
 /* ----------------------------------------------------- */
