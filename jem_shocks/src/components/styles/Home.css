@@ -384,17 +384,104 @@
     font-weight: 600;
 }
 
-#knowMore svg{
-    margin-right: 8px;
-    width: 20px;
-    height: 30px;
-}
-
 #goAbout{
     /* Quitamos el subrayado */
     text-decoration: none;
     /* Quitamos todo lo que le afecte al boton */
     outline: none;
+    color: black;
+    margin-top: 4px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ----------------------------------------------------- */
+/* ----------------INFO - SÉPTIMA SECCION--------------- */
+/* ----------------------------------------------------- */
+
+#septimaSeccion{
+    /* margin-top: 150px; */
+    padding: 110px 0px 115px;
+    /* Insertamos una imagen de fondo */
+    background-image: url(../../../public/images/Portada4.png);
+    /* Ponemos translucida la imagen */
+    /* background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: overlay; */
+    /* Ajustamos el tamaño de la imagen */
+    background-size: cover;
+    /* Ajustamos la posición de la imagen */
+    background-position: center;
+    /* Ajustamos el alto */
+    height: 300px;
+}
+
+#nuevosDescuentos{
+    margin: 0px 130px;
+    padding: 0px 15px;
+}
+
+#septimaSeccion h2{
+    font-size: 52px;
+    text-align: right;
+}
+
+#cambioLetra{
+    color: #ffc800;
+}
+
+.descuento{
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffc800;
+    margin-top: 40px;
+    text-align: right;
+
+}
+
+#hastaDescuento, #off{
+    color: black;
+    margin: 0px 10px 0px 0px;
+}
+
+#hastaDescuento{
+    letter-spacing: 1.5px;
+}
+
+#cincuenta{
+    font-size: 80px;
+}
+
+#nuevosDescuentos a{
+    text-decoration: none;
+    color: black;
+    outline: none;
+}
+
+#bigDiscount{
+    background-color: #ffc800; 
+    border-radius: 29px; 
+    border: 1px solid #ffc800; 
+    color: black; 
+    font-size: 17px; 
+    padding: 10px 45px; 
+    cursor: pointer; 
+    transition: 0.3s; 
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 0px;
+    display: flex;
+    /* flex-direction: row; */
+}
+    
+#bigDiscount:hover{ 
+    background-color: #ffd026; 
+    color: #081F2D; 
+    border-color: #081F2D; 
+    transition: 0.5s; 
+    font-weight: 600;
+}
+
+#goAbout{
+    /* outline: none; */
     color: black;
     margin-top: 4px;
     font-family: 'Poppins', sans-serif;

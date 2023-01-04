@@ -155,12 +155,12 @@ export class Home extends Component {
                 </div>
 
                 {/* Carrousel de Opiniones */}
-                <OpinionCarousel/>
+                <OpinionCarousel />
 
                 <div id='sextaSeccion'>
                     <div id='ajustamosAncho'>
                         <div id='columna'>
-                            <video src={Video} /* controls */ autoPlay loop muted/>
+                            <video src={Video} /* controls */ autoPlay loop muted />
                         </div>
                         <div id='columna'>
                             {/* info */}
@@ -171,7 +171,7 @@ export class Home extends Component {
                                 <p>We pride ourselves on offering high quality socks at affordable prices and our team is dedicated to providing excellent customer service to ensure that your shopping experience with us is always a pleasure.</p>
                                 <a href="/JEM_SHOCKS/about">
                                     <button id='knowMore'>
-                                        <Link to="/JEM_SHOCKS/about" id='goAbout' onClick={'/JEM_SHOCKS/shop'}>know more</Link>
+                                        <Link to="/JEM_SHOCKS/about" id='goAbout' onClick={'/JEM_SHOCKS/about'}>know more</Link>
                                     </button>
                                 </a>
                             </div>
@@ -180,7 +180,22 @@ export class Home extends Component {
                 </div>
 
                 <div id='septimaSeccion'>
-                    
+                    <div id='nuevosDescuentos'>
+                        <h2>January sale is on!<br />with big <span id='cambioLetra'>Discount</span>...</h2>
+                        <div class="descuento">
+                            <span id='hastaDescuento'>
+                                Sale! Up to
+                                <br />
+                            </span>
+                            <span id='cincuenta'>50%</span>
+                            <span id='off'> off</span>
+                        </div>
+                        <a href="/JEM_SHOCKS/shop">
+                            <button id='bigDiscount'>
+                                <Link to="/JEM_SHOCKS/shop" id='goShop' onClick={'/JEM_SHOCKS/shop'}>Shop now</Link>
+                            </button>
+                        </a>
+                    </div>
                 </div>
             </div>
         )
