@@ -301,15 +301,21 @@
 /* ----------------------------------------------------- */
 
 #sextaSeccion{
-    margin: 0px 0px 150px;
     background-color: white;
     column-gap: 2;
     margin: 0 auto;
+    /* Hacemos más grande el alto */
+    height: 600px;
 }
 
 #ajustamosAncho{
     display: flex;
+    /* Ajustamos a todo lo alto que da el contenedor */
+    height: 100%;
+    /* Alineamos el contenido al centro */
     align-items: center;
+    /* Alineamos el contenido al centro */
+    justify-content: center;
     width: 80%;
     margin: 0 auto;
 }
