@@ -7,17 +7,17 @@
     color: #fff;
     letter-spacing: 0px;
     margin: 20px 20px 0px 20px;
-    font-family: 'Poppins', 'Open Sans', sans-serif;
     /* Ampliamos el tamaño y el espesor de la fuente */
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 900;
 }
 
 #portada{
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    font-family: 'Poppins', 'Open Sans', sans-serif;
 
-    background-image: url(../../../public/images/Portada.jpg);
+    background-image: url(../../../public/images/Portada7.jpg);
     /* Hacemos que la imagen no se repita */
     background-repeat: no-repeat;
     /* Hacemos que la imagen se ajuste al tamaño del contenedor */
@@ -27,12 +27,40 @@
     /* Hacemos que la imagen se quede fija en la posición */
     background-attachment: fixed;
     /* Hacemos que la imagen sea mas oscura */
-    background-color: rgba(167, 167, 167, 0.5);
+    background-color: rgba(51, 51, 51, 0.5);
     /* Hacemos que la imagen sea translucida */
     background-blend-mode: overlay;
-/* 
-    position: fixed;
-    z-index: -1; */
+
+    /* Centramos el contenido al centro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Hacemos qeu el h5 este primero antes qeu el h1 */
+    flex-direction: column;
+}
+
+#portada h5{
+    /* Hacemos más grande la letra */
+    font-size: 20px;
+    color: #ffc800;
+}
+
+#portada a{
+    text-decoration: none;
+    color: black;
+    outline: none;
+}
+
+#botonesPortada{
+    display: flex;
+    /* width: auto; */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#botonesPortada button{
+    margin: 20px 0px 0px 15px;
+    padding: 10px 30px;
 }
 
 /* ----------------------------------------------------- */

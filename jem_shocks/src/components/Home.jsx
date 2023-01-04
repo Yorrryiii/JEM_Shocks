@@ -37,6 +37,18 @@ export class Home extends Component {
                 <div id='portada'>
                     <h5 id='sale'>WE CUSTOMIZE YOUR STYLE</h5>
                     <h1 id='tituloPrincipal'>This is JEM SHÖCKS</h1>
+                    <div id='botonesPortada'>
+                        <a href="/JEM_SHOCKS/shop">
+                            <button id='bigDiscount'>
+                                <Link to="/JEM_SHOCKS/shop" id='goShop' onClick={'/JEM_SHOCKS/shop'}>Shöcks Collection</Link>
+                            </button>
+                        </a>
+                        <a href="/JEM_SHOCKS/contact">
+                            <button id='bigDiscount'>
+                                <Link to="/JEM_SHOCKS/contact" id='goShop' onClick={'/JEM_SHOCKS/contact'}>Contact us</Link>
+                            </button>
+                        </a>
+                    </div>
                 </div>
 
                 <div id='segundaSeccion'>
