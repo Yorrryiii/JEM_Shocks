@@ -53,9 +53,8 @@
 
 #botonesPortada{
     display: flex;
-    /* width: auto; */
-    margin-right: auto;
-    margin-left: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 #botonesPortada button{
