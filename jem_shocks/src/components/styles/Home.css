@@ -170,7 +170,7 @@
 
 #ejemplosCalcetines p{
     font-size: 30px;
-    margin: 0px 0px 20px;
+    margin: 0px 0px 25px;
     font-weight: 700;
 }
 
@@ -296,7 +296,62 @@
     top: -1em;
 }
 
-#botonTienda{
+/* ----------------------------------------------------- */
+/* --------------INFO TIENDA - SEXTA SECCION------------ */
+/* ----------------------------------------------------- */
+
+#sextaSeccion{
+    margin: 0px 0px 150px;
+    background-color: white;
+    column-gap: 2;
+    margin: 0 auto;
+}
+
+#ajustamosAncho{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#columna{
+    padding: 0px 15px;
+    /* width: 60%; */
+    margin: 0 auto;
+}
+
+#columna video{
+    width: 100%;
+    /* Redondeamos los bordes */
+    border-radius: 15px;
+}
+
+#since{
+    padding: 50px 50px 50px 30px;
+}
+
+#columna p{
+    font-size: 15px;
+    margin: 0px 0px 10px;
+    /* Añadimos más espacio entre líneas */
+    line-height: 30px;
+}
+
+#columna h2{
+    font-size: 42px;
+    margin: 0px 0px 17.5px;
+}
+
+#columna span{
+    color: #ffc800;
+}
+
+#since a{
+    text-decoration: none;
+    color: black;
+}
+
+#knowMore{
     background-color: #ffc800; 
     border-radius: 29px; 
     border: 1px solid #ffc800; 
@@ -305,14 +360,14 @@
     padding: 10px 45px; 
     cursor: pointer; 
     transition: 0.3s; 
-    margin-left: auto;
+    margin-top: 20px;
+    margin-left: 0px;
     margin-right: auto;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    /* flex-direction: row; */
 }
     
-#botonTienda:hover{ 
+#knowMore:hover{ 
     background-color: transparent; 
     color: #081F2D; 
     border-color: #081F2D; 
@@ -320,8 +375,18 @@
     font-weight: 600;
 }
 
-#botonTienda svg{
+#knowMore svg{
     margin-right: 8px;
     width: 20px;
     height: 30px;
+}
+
+#goAbout{
+    /* Quitamos el subrayado */
+    text-decoration: none;
+    /* Quitamos todo lo que le afecte al boton */
+    outline: none;
+    color: black;
+    margin-top: 4px;
+    font-family: 'Poppins', sans-serif;
 }

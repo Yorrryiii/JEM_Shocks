@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import OpinionCarousel from './Carousel';
 import './styles/Home.css';
+import Video from './Video.mp4';
 
 export class Home extends Component {
 
@@ -156,6 +157,27 @@ export class Home extends Component {
                 {/* Carrousel de Opiniones */}
                 <OpinionCarousel/>
 
+                <div id='sextaSeccion'>
+                    <div id='ajustamosAncho'>
+                        <div id='columna'>
+                            <video src={Video} /* controls */ autoPlay loop muted/>
+                        </div>
+                        <div id='columna'>
+                            {/* info */}
+                            <div id='since'>
+                                <p>Since Year 2022</p>
+                                <h2>We are <span>JEM Shöcks</span></h2>
+                                <p>We are an e-commerce company specialising in the sale of socks. Our selection includes a variety of styles, colours and patterns to suit all tastes and needs. Whether you're looking for warm wool socks to keep your feet warm in the winter or lightweight cotton socks for everyday wear, we have what you need.</p>
+                                <p>We pride ourselves on offering high quality socks at affordable prices and our team is dedicated to providing excellent customer service to ensure that your shopping experience with us is always a pleasure.</p>
+                                <a href="/JEM_SHOCKS/about">
+                                    <button id='knowMore'>
+                                        <Link to="/JEM_SHOCKS/about" id='goAbout' onClick={'/JEM_SHOCKS/shop'}>know more</Link>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         )
     }
