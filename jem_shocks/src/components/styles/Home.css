@@ -199,7 +199,7 @@
 }
     
 #botonTienda:hover{ 
-    background-color: transparent; 
+    background-color: #ffd94e; 
     color: #081F2D; 
     border-color: #081F2D; 
     transition: 0.5s; 
@@ -377,7 +377,7 @@
 }
     
 #knowMore:hover{ 
-    background-color: transparent; 
+    background-color: #ffd94e; 
     color: #081F2D; 
     border-color: #081F2D; 
     transition: 0.5s; 
@@ -473,7 +473,7 @@
 }
     
 #bigDiscount:hover{ 
-    background-color: #ffd026; 
+    background-color: #ffd94e; 
     color: #081F2D; 
     border-color: #081F2D; 
     transition: 0.5s; 
