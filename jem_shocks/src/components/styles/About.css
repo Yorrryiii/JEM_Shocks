@@ -39,7 +39,7 @@
     font-family: 'Poppins', 'Open Sans', sans-serif;
     margin-right: 40px;
     margin-top: 200px;
-    margin-left: 300px;
+    margin-left: 100px;
     height: auto;
 }
 
@@ -217,6 +217,18 @@ ul.social-link-team li a {
 
 .features-content {
     color: #000000;
+}
+
+.partners
+{
+    background-color: #cacacaac;
+    height: 200px;
+    padding-bottom: 300px;
+    width: auto;
+}
+.partner{
+    height: 50px;
+    width: 25%;
 }
 
 
