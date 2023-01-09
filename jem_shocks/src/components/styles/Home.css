@@ -7,17 +7,17 @@
     color: #fff;
     letter-spacing: 0px;
     margin: 20px 20px 0px 20px;
-    font-family: 'Poppins', 'Open Sans', sans-serif;
     /* Ampliamos el tamaño y el espesor de la fuente */
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 900;
 }
 
 #portada{
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    font-family: 'Poppins', 'Open Sans', sans-serif;
 
-    background-image: url(../../../public/images/Portada.jpg);
+    background-image: url(../../../public/images/Portada7.jpg);
     /* Hacemos que la imagen no se repita */
     background-repeat: no-repeat;
     /* Hacemos que la imagen se ajuste al tamaño del contenedor */
@@ -27,9 +27,39 @@
     /* Hacemos que la imagen se quede fija en la posición */
     background-attachment: fixed;
     /* Hacemos que la imagen sea mas oscura */
-    background-color: rgba(167, 167, 167, 0.5);
+    background-color: rgba(51, 51, 51, 0.5);
     /* Hacemos que la imagen sea translucida */
     background-blend-mode: overlay;
+
+    /* Centramos el contenido al centro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Hacemos qeu el h5 este primero antes qeu el h1 */
+    flex-direction: column;
+}
+
+#portada h5{
+    /* Hacemos más grande la letra */
+    font-size: 20px;
+    color: #ffc800;
+}
+
+#portada a{
+    text-decoration: none;
+    color: black;
+    outline: none;
+}
+
+#botonesPortada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#botonesPortada button{
+    margin: 20px 0px 0px 15px;
+    padding: 10px 30px;
 }
 
 /* ----------------------------------------------------- */
@@ -133,7 +163,7 @@
 #terceraSeccion p{
     font-size: 17px;
     text-align: center;
-    margin: 18px 150px 90px 150px;
+    margin: 18px 150px 100px 150px;
 }
 
 #ejemplosCalcetines{
@@ -151,7 +181,7 @@
 }
 
 #ejCalcetines1:hover, #ejCalcetines2:hover, #ejCalcetines3:hover{
-    box-shadow: 0px 0px 15px 0px rgb(148, 148, 148);
+    box-shadow: 0px 0px 15px 0px #949494;
 }
 
 #ejemplosCalcetines img{
@@ -170,7 +200,7 @@
 
 #ejemplosCalcetines p{
     font-size: 30px;
-    margin: 0px 0px 20px;
+    margin: 0px 0px 25px;
     font-weight: 700;
 }
 
@@ -196,7 +226,7 @@
 }
     
 #botonTienda:hover{ 
-    background-color: transparent; 
+    background-color: #ffd94e; 
     color: #081F2D; 
     border-color: #081F2D; 
     transition: 0.5s; 
@@ -296,7 +326,68 @@
     top: -1em;
 }
 
-#botonTienda{
+/* ----------------------------------------------------- */
+/* --------------INFO TIENDA - SEXTA SECCION------------ */
+/* ----------------------------------------------------- */
+
+#sextaSeccion{
+    background-color: white;
+    column-gap: 2;
+    margin: 0 auto;
+    /* Hacemos más grande el alto */
+    height: 600px;
+}
+
+#ajustamosAncho{
+    display: flex;
+    /* Ajustamos a todo lo alto que da el contenedor */
+    height: 100%;
+    /* Alineamos el contenido al centro */
+    align-items: center;
+    /* Alineamos el contenido al centro */
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#columna{
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+#columna video{
+    width: 100%;
+    border-radius: 15px;
+    /* Añadimos una sombra */
+    box-shadow: 0px 0px 15px 0px #949494;
+}
+
+#since{
+    padding: 50px 50px 50px 30px;
+}
+
+#columna p{
+    font-size: 15px;
+    margin: 0px 0px 10px;
+    /* Añadimos más espacio entre líneas */
+    line-height: 30px;
+}
+
+#columna h2{
+    font-size: 42px;
+    margin: 0px 0px 17.5px;
+}
+
+#columna span{
+    color: #ffc800;
+}
+
+#since a{
+    text-decoration: none;
+    color: black;
+}
+
+#knowMore{
     background-color: #ffc800; 
     border-radius: 29px; 
     border: 1px solid #ffc800; 
@@ -305,31 +396,120 @@
     padding: 10px 45px; 
     cursor: pointer; 
     transition: 0.3s; 
-    margin-left: auto;
+    margin-top: 20px;
+    margin-left: 0px;
     margin-right: auto;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    /* flex-direction: row; */
 }
     
-#botonTienda:hover{ 
-    background-color: transparent; 
+#knowMore:hover{ 
+    background-color: #ffd94e; 
     color: #081F2D; 
     border-color: #081F2D; 
     transition: 0.5s; 
     font-weight: 600;
 }
 
-#botonTienda svg{
-    margin-right: 8px;
-    width: 20px;
-    height: 30px;
+#goAbout{
+    /* Quitamos el subrayado */
+    text-decoration: none;
+    /* Quitamos todo lo que le afecte al boton */
+    outline: none;
+    color: black;
+    margin-top: 4px;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* ----------------------------------------------------- */
-/* ---------------CARROUSEL DE OPINIONES---------------- */
+/* ----------------INFO - SÉPTIMA SECCION--------------- */
 /* ----------------------------------------------------- */
 
-#quintaSeccion{
-    margin: 150px 0px;
+#septimaSeccion{
+    /* margin-top: 150px; */
+    padding: 110px 0px 115px;
+    /* Insertamos una imagen de fondo */
+    background-image: url(../../../public/images/Portada4.png);
+    /* Ponemos translucida la imagen */
+    /* background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: overlay; */
+    /* Ajustamos el tamaño de la imagen */
+    background-size: cover;
+    /* Ajustamos la posición de la imagen */
+    background-position: center;
+    /* Ajustamos el alto */
+    height: 300px;
+}
+
+#nuevosDescuentos{
+    margin: 0px 130px;
+    padding: 0px 15px;
+}
+
+#septimaSeccion h2{
+    font-size: 52px;
+    text-align: right;
+}
+
+#cambioLetra{
+    color: #ffc800;
+}
+
+.descuento{
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffc800;
+    margin-top: 40px;
+    text-align: right;
+
+}
+
+#hastaDescuento, #off{
+    color: black;
+    margin: 0px 10px 0px 0px;
+}
+
+#hastaDescuento{
+    letter-spacing: 1.5px;
+}
+
+#cincuenta{
+    font-size: 80px;
+}
+
+#nuevosDescuentos a{
+    text-decoration: none;
+    color: black;
+    outline: none;
+}
+
+#bigDiscount{
+    background-color: #ffc800; 
+    border-radius: 29px; 
+    border: 1px solid #ffc800; 
+    color: black; 
+    font-size: 17px; 
+    padding: 10px 45px; 
+    cursor: pointer; 
+    transition: 0.3s; 
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 0px;
+    display: flex;
+    /* flex-direction: row; */
+}
+    
+#bigDiscount:hover{ 
+    background-color: #ffd94e; 
+    color: #081F2D; 
+    border-color: #081F2D; 
+    transition: 0.5s; 
+    font-weight: 600;
+}
+
+#goAbout{
+    /* outline: none; */
+    color: black;
+    margin-top: 4px;
+    font-family: 'Poppins', sans-serif;
 }
