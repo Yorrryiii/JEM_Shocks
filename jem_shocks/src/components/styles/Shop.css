@@ -1,0 +1,122 @@
+#titulo {
+    margin: 150px 0px;
+}
+
+#tituloProductos {
+    color: #ffc800;
+    transition: 0.3s;
+}
+
+#cuerpoProductos {
+    color: black;
+}
+
+/* Para intercambiar los colores del titulo cuando el usuario haga hover sobre el titulo */
+#tituloProductos:hover {
+    color: black;
+}
+
+#tituloProductos:hover #cuerpoProductos {
+    color: #ffc800;
+    transition: 0.3s;
+}
+
+#terceraSeccion hr {
+    /* Hacemos un poco más ancha la línea */
+    width: 6%;
+    /* Hacemos que la línea sea más gruesa */
+    height: 4px;
+    /* Pintamos la linea de color amarillo */
+    background-color: #ffc800;
+    border: none;
+    /* Alineamos al centro de la ventana */
+    margin: 0 auto;
+    margin-top: 8px;
+}
+
+#productos h3 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#productos {
+    margin: 150px 0px;
+}
+
+#productos {
+    padding: 0px 15px;
+    column-count: 3;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#producto1 {
+    background-color: #f8f8f8;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 0px #ffeca9;
+    height: 85vh;
+}
+
+#producto1:hover {
+    box-shadow: 0px 0px 15px 0px #949494;
+}
+
+#productos img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: 0px 0px 40px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ejemplosCalcetines h3 {
+    font-size: 20px;
+    margin: 0px 0px 15px;
+}
+
+#ejemplosCalcetines p {
+    font-size: 30px;
+    margin: 0px 0px 25px;
+    font-weight: 700;
+}
+
+#botonCart {
+    background-color: #ffc800;
+    border-radius: 29px;
+    border: 1px solid #ffc800;
+    color: black;
+    font-size: 15px;
+    padding: 10px 45px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#botonCart:hover {
+    background-color: #ffd94e;
+    color: #081F2D;
+    border-color: #081F2D;
+    transition: 0.5s;
+    font-weight: 600;
+}
+
+#botonCart svg {
+    margin-right: 8px;
+    width: 20px;
+    height: 30px;
+}
+
+#Cart {
+    /* Quitamos el subrayado */
+    text-decoration: none;
+    /* Quitamos todo lo que le afecte al boton */
+    outline: none;
+    color: black;
+    margin-top: 4px;
+    font-family: 'Poppins', sans-serif;
+}
