@@ -40,7 +40,7 @@ export class Home extends Component {
                     <div id='botonesPortada'>
                         <a href="/JEM_SHOCKS/shop">
                             <button id='bigDiscount'>
-                                <Link to="/JEM_SHOCKS/shop" id='goShop' onClick={'/JEM_SHOCKS/shop'}>Shöcks Collection</Link>
+                                <Link to="/JEM_SHOCKS/shop" id='goShop' onClick={'/JEM_SHOCKS/shop'}>Collection</Link>
                             </button>
                         </a>
                         <a href="/JEM_SHOCKS/contact">

@@ -1,0 +1,55 @@
+.loader {
+    border: 8px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 8px solid #3498db;
+    width: 80px;
+    height: 80px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Add animation to the preloader */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+/* .spinner {
+    width: 72px;
+    height: 72px;
+    display: grid;
+    border: 5.8px solid #0000;
+    border-radius: 50%;
+    border-color: #ffd800 #0000;
+    animation: spinner-e04l1k 1.4s infinite linear;
+ }
+ 
+ .spinner::before,
+ .spinner::after {
+    content: "";
+    grid-area: 1/1;
+    margin: 2.9px;
+    border: inherit;
+    border-radius: 50%;
+ }
+ 
+ .spinner::before {
+    border-color: #000000 #0000;
+    animation: inherit;
+    animation-duration: 0.7s;
+    animation-direction: reverse;
+ }
+ 
+ .spinner::after {
+    margin: 11.6px;
+ }
+ 
+ @keyframes spinner-e04l1k {
+    100% {
+       transform: rotate(1turn);
+    }
+ } */
