@@ -6,7 +6,7 @@ export class Shop extends Component {
     render() {
         return (
             <div>
-                render(){
+                
 
                     <div>
                         {/* Contenido de la página shop */}
@@ -37,7 +37,7 @@ export class Shop extends Component {
                         </button>
                     </div>
                 </div>
-                }
+                
             </div>
         )
     }
