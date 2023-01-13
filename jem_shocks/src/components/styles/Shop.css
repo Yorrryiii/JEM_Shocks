@@ -1,5 +1,12 @@
+#body {
+    margin-bottom: 150px;
+}
+
+/* Titulo "All Productos"*/
 #titulo {
     margin: 150px 0px;
+    text-align: center;
+    font-size: 50px;
 }
 
 #tituloProductos {
@@ -21,26 +28,9 @@
     transition: 0.3s;
 }
 
-#terceraSeccion hr {
-    /* Hacemos un poco más ancha la línea */
-    width: 6%;
-    /* Hacemos que la línea sea más gruesa */
-    height: 4px;
-    /* Pintamos la linea de color amarillo */
-    background-color: #ffc800;
-    border: none;
-    /* Alineamos al centro de la ventana */
-    margin: 0 auto;
-    margin-top: 8px;
-}
-
-#productos h3 {
+#body h3 {
     font-size: 50px;
     text-align: center;
-}
-
-#productos {
-    margin: 150px 0px;
 }
 
 #productos {
@@ -50,11 +40,18 @@
     margin: 0 auto;
 }
 
+#terceraSeccion p {
+    font-size: 17px;
+    text-align: center;
+    margin: 18px 150px 100px 150px;
+}
+
 #producto1 {
     background-color: #f8f8f8;
     border-radius: 15px;
     box-shadow: 0px 0px 15px 0px #ffeca9;
     height: 85vh;
+
 }
 
 #producto1:hover {
@@ -70,15 +67,17 @@
     margin-right: auto;
 }
 
-#ejemplosCalcetines h3 {
+#productos h2 {
     font-size: 20px;
     margin: 0px 0px 15px;
+    text-align: center;
 }
 
-#ejemplosCalcetines p {
+#productos p {
     font-size: 30px;
     margin: 0px 0px 25px;
     font-weight: 700;
+    text-align: center;
 }
 
 #botonCart {
