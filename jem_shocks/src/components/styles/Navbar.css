@@ -33,11 +33,6 @@ ul{
     width: 65%;
 }
 
-/* #imagen{
-    Alineamos el logo a la izquierda
-    float: left;
-}   */
-
 /* Animacion del logo */
 .logoNavbar{
     vertical-align:middle;
@@ -59,16 +54,28 @@ ul{
     color: #ffc800;
 }
 
-.lupa, .carrito{
+
+/* -----------carrito de la compra + login----------- */
+.lupa, .carrito, .login{
     width: 40px;
     height: 20px;
     color: #fff;
 }
-
 #parteDcha{
     /* Centramos verticalmente los elementos */
     display: flex;
     align-items: center;
+    margin-top: 16px;
     /* Alineamos a la derecha */
     float: right;
 }
+#carritobutton, #loginbutton{
+    background-color: transparent;
+    border: none;
+}
+.carrito:hover, .login:hover{
+    color: #ffc800;
+}
+
+
+/* -----------animación de búsqueda----------- */
