@@ -96,15 +96,6 @@ export class About extends Component {
                     </div>
                 </div>
 
-
-
-                {/*Lineas divisorias*/}
-                {/* <div>
-                    <hr size="5px" width="50%" align="center" color="red"/>
-                    <hr size="5px" width="50%" align="center" color="red"/>
-                    <hr size="5px" width="50%" align="center" color="red"/>
-                </div> */}
-
                 {/*Team*/}
                 <div id='text'>
                     <h1 id='titulo1'>Our <span id='titulo2'>Team</span></h1>
@@ -113,32 +104,17 @@ export class About extends Component {
                     <div class="single-team-item">
                         <div class="founders founders-1"></div>
                         <h4>Mario Gómez <span>Founder</span></h4>
-                        {/* <ul class="social-link-team">
-                            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                        </ul> */}
                     </div>
 
                     <div class="single-team-item">
                         <div class="founders founders-2"></div>
                         <h4>Jorge Serrano <span>Founder</span></h4>
-                        {/* <ul class="social-link-team">
-                            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                        </ul> */}
                     </div>
 
 
                     <div class="single-team-item">
                         <div class="founders founders-3"></div>
                         <h4>Elena Rozas <span>Founder</span></h4>
-                        {/* <ul class="social-link-team">
-                            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                        </ul> */}
                     </div>
 
                 </div>
@@ -146,21 +122,11 @@ export class About extends Component {
                 <OpinionCarousel />
 
                 <div class="partners">
-                    <div>
-                        <img class="partner1" src="/images/partner1.png" alt="why-jem-shocks" />
-                    </div>
-                    <div>
-                        <img class="partner2" src="/images/partner2.png" alt="why-jem-shocks" />
-                    </div>
-                    <div>
-                        <img class="partner3" src="/images/partner3.png" alt="why-jem-shocks" />
-                    </div>
-                    <div>
-                        <img class="partner4" src="/images/partner4.png" alt="why-jem-shocks" />
-                    </div>
-                    <div>
-                        <img class="partner5" src="/images/partner5.png" alt="why-jem-shocks" />
-                    </div>
+                    <img class="partner1" src="/images/partner1.png" alt="why-jem-shocks" />
+                    <img class="partner2" src="/images/partner2.png" alt="why-jem-shocks" />
+                    <img class="partner3" src="/images/partner3.png" alt="why-jem-shocks" />
+                    <img class="partner4" src="/images/partner4.png" alt="why-jem-shocks" />
+                    <img class="partner5" src="/images/partner5.png" alt="why-jem-shocks" />
                 </div>
             </div>
         )
