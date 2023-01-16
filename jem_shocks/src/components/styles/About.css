@@ -39,8 +39,8 @@
     width: 80%;
     margin-left: 100px;
     margin-bottom: 150px;
-
 }
+
 .tg {
     border-collapse: collapse;
     border-spacing: 0;
@@ -49,22 +49,6 @@
 }
 
 /* why jem shocks title */
-
-.title {
-    text-align: left;
-    vertical-align: middle;
-    font-size: 40px;
-    margin: 100px;
-}
-#titulo1 {
-    font-size: 40px;
-    color: #000000;
-}
-
-#titulo2 {
-    font-size: 40px;
-    color: #ffc800;
-}
 
 .tg td {
     border-style: transparent;
@@ -86,6 +70,7 @@
     padding: 10px 5px;
     word-break: normal;
 }
+
 .content{
     letter-spacing: 1px;
     line-height: 16px;
@@ -129,6 +114,35 @@
     margin-bottom: 30px;
 }
 
+#OurTeam{
+    margin: 120px 0px 70px 0px;
+}
+
+#OurTeam h3{
+    font-size: 50px;
+    text-align: center;
+}
+
+#OurTeam hr{
+    /* Hacemos un poco más ancha la línea */
+    width: 6%;
+    /* Hacemos que la línea sea más gruesa */
+    height: 4px;
+    /* Pintamos la linea de color amarillo */
+    background-color: #ffc800;
+    border: none;
+    /* Alineamos al centro de la ventana */
+    margin: 0 auto;
+    margin-top: 8px;
+}
+
+.photos {
+    margin-left: 80px;
+    margin-right: 80px;
+    column-count: 3;
+    column-gap: 30px;
+}
+
 /*Fotos de los creadores de la página*/
 .founders-1 {
     background-image: url(../../../public/images/EjemploPersona.jpg);
@@ -140,13 +154,6 @@
 
 .founders-3 {
     background-image: url(../../../public/images/EjemploPersona.jpg);
-}
-
-.photos {
-    margin-left: 80px;
-    margin-right: 80px;
-    column-count: 3;
-    column-gap: 30px;
 }
 
 .single-team-item h4 {

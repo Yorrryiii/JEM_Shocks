@@ -27,8 +27,7 @@ export class About extends Component {
                         <table class="tg">
                             <thead>
                                 <tr>
-                                    <td class="title" colspan="4"><h4 id='titulo1'>Why <span id='titulo2'>JEM Shöcks</span></h4></td>
-
+                                    <td class="title" colspan="4"><h1 id='tituloProductos'>Why <span id='cuerpoProductos'>JEM SHÖCKS</span></h1></td>
                                 </tr>
                                 <tr>
                                     <td class="tg-0lax" rowspan="2">
@@ -97,8 +96,9 @@ export class About extends Component {
                 </div>
 
                 {/*Team*/}
-                <div id='text'>
-                    <h1 id='titulo1'>Our <span id='titulo2'>Team</span></h1>
+                <div id='OurTeam'>
+                    <h3 id='tituloProductos'>Our <span id='cuerpoProductos'>Team</span></h3>
+                    <hr />
                 </div>
                 <div class="photos">
                     <div class="single-team-item">
@@ -111,19 +111,17 @@ export class About extends Component {
                         <h4>Jorge Serrano <span>Founder</span></h4>
                     </div>
 
-
                     <div class="single-team-item">
                         <div class="founders founders-3"></div>
                         <h4>Elena Rozas <span>Founder</span></h4>
                     </div>
-
                 </div>
 
                 <OpinionCarousel />
 
                 <div class="partners">
                     <img class="partner1" src="/images/partner1.png" alt="why-jem-shocks" />
-                    <img class="partner2" src="/images/partner2.png" alt="why-jem-shocks" />
+                    <img class="partner2 normal" src="/images/partner2.png" alt="why-jem-shocks" />
                     <img class="partner3" src="/images/partner3.png" alt="why-jem-shocks" />
                     <img class="partner4" src="/images/partner4.png" alt="why-jem-shocks" />
                     <img class="partner5" src="/images/partner5.png" alt="why-jem-shocks" />
