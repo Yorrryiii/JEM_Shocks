@@ -27,8 +27,7 @@ export class About extends Component {
                         <table class="tg">
                             <thead>
                                 <tr>
-                                    <td class="title" colspan="4"><h4 id='titulo1'>Why <span id='titulo2'>JEM Shöcks</span></h4></td>
-
+                                    <td class="title" colspan="4"><h1 id='tituloProductos'>Why <span id='cuerpoProductos'>JEM SHÖCKS</span></h1></td>
                                 </tr>
                                 <tr>
                                     <td class="tg-0lax" rowspan="2">
@@ -96,71 +95,36 @@ export class About extends Component {
                     </div>
                 </div>
 
-
-
-                {/*Lineas divisorias*/}
-                {/* <div>
-                    <hr size="5px" width="50%" align="center" color="red"/>
-                    <hr size="5px" width="50%" align="center" color="red"/>
-                    <hr size="5px" width="50%" align="center" color="red"/>
-                </div> */}
-
                 {/*Team*/}
-                <div id='text'>
-                    <h1 id='titulo1'>Our <span id='titulo2'>Team</span></h1>
+                <div id='OurTeam'>
+                    <h3 id='tituloProductos'>Our <span id='cuerpoProductos'>Team</span></h3>
+                    <hr />
                 </div>
                 <div class="photos">
                     <div class="single-team-item">
                         <div class="founders founders-1"></div>
                         <h4>Mario Gómez <span>Founder</span></h4>
-                        {/* <ul class="social-link-team">
-                            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                        </ul> */}
                     </div>
 
                     <div class="single-team-item">
                         <div class="founders founders-2"></div>
                         <h4>Jorge Serrano <span>Founder</span></h4>
-                        {/* <ul class="social-link-team">
-                            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                        </ul> */}
                     </div>
-
 
                     <div class="single-team-item">
                         <div class="founders founders-3"></div>
                         <h4>Elena Rozas <span>Founder</span></h4>
-                        {/* <ul class="social-link-team">
-                            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                        </ul> */}
                     </div>
-
                 </div>
 
                 <OpinionCarousel />
 
                 <div class="partners">
-                    <div>
-                        <img class="partner1" src="/images/partner1.png" alt="why-jem-shocks" />
-                    </div>
-                    <div>
-                        <img class="partner2" src="/images/partner2.png" alt="why-jem-shocks" />
-                    </div>
-                    <div>
-                        <img class="partner3" src="/images/partner3.png" alt="why-jem-shocks" />
-                    </div>
-                    <div>
-                        <img class="partner4" src="/images/partner4.png" alt="why-jem-shocks" />
-                    </div>
-                    <div>
-                        <img class="partner5" src="/images/partner5.png" alt="why-jem-shocks" />
-                    </div>
+                    <img class="partner1" src="/images/partner1.png" alt="why-jem-shocks" />
+                    <img class="partner2 normal" src="/images/partner2.png" alt="why-jem-shocks" />
+                    <img class="partner3" src="/images/partner3.png" alt="why-jem-shocks" />
+                    <img class="partner4" src="/images/partner4.png" alt="why-jem-shocks" />
+                    <img class="partner5" src="/images/partner5.png" alt="why-jem-shocks" />
                 </div>
             </div>
         )
