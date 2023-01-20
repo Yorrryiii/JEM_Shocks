@@ -1,4 +1,5 @@
 {
+  "homepage": "/JEM_SHOCKS/",
   "dependencies": {
     "google-map-react": "^2.2.0",
     "react-google-maps": "^7.3.0"
