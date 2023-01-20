@@ -219,6 +219,7 @@
     padding: 10px 45px; 
     cursor: pointer; 
     transition: 0.3s; 
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
