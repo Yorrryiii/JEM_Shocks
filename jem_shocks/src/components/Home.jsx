@@ -117,7 +117,7 @@ export class Home extends Component {
                             </a>
                         </div>
 
-                        <div id='ejCalcetines1'>
+                        <div id='ejCalcetines3'>
                             <img src="/images/ejCalcetines3.png" alt="Socks 3" />
                             <h3>Minions Skaters</h3>
                             <p>4,50€</p>
