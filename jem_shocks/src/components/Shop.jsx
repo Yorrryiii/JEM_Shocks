@@ -14,7 +14,7 @@ export class Shop extends Component {
 
                 {/* Título */}
                 <div id='titulo'>
-                    <h3 id='tituloProductos'>All <span id='cuerpoProductos'>Products</span></h3>
+                    <h3 id='tituloCalcetines'>All <span id='cuerpoCalcetines'>Products</span></h3>
                     <p id='def'>At JEM Shöcks, we use organic materials to make your socks of perfect quality, wearing among many other styles</p>
                 </div>
 

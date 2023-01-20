@@ -9,21 +9,21 @@
     font-size: 50px;
 }
 
-#tituloProductos {
+#tituloCalcetines {
     color: #ffc800;
     transition: 0.3s;
 }
 
-#cuerpoProductos {
+#cuerpoCalcetines {
     color: black;
 }
 
 /* Para intercambiar los colores del titulo cuando el usuario haga hover sobre el titulo */
-#tituloProductos:hover {
+#tituloCalcetines:hover {
     color: black;
 }
 
-#tituloProductos:hover #cuerpoProductos {
+#tituloCalcetines:hover #cuerpoCalcetines {
     color: #ffc800;
     transition: 0.3s;
 }
@@ -33,17 +33,11 @@
     text-align: center;
 }
 
-/* #productos {
+#productos {
     padding: 0px 15px;
     column-count: 3;
     width: 80%;
     margin: 0 auto;
-}
-
-#terceraSeccion p {
-    font-size: 17px;
-    text-align: center;
-    margin: 18px 150px 100px 150px;
 }
 
 #def {
@@ -218,7 +212,7 @@
     margin-right: auto;
     display: flex;
     /* flex-direction: row; 
-    align-items: center;
+    align-items: center;*/
 }
 
 #botonCart:hover {
@@ -236,9 +230,9 @@
 }
 
 #Cart {
-    /* Quitamos el subrayado 
+    /*Quitamos el subrayado */
     text-decoration: none;
-    /* Quitamos todo lo que le afecte al boton 
+    /*Quitamos todo lo que le afecte al boton */
     outline: none;
     color: black;
     margin-top: 4px;
@@ -253,5 +247,5 @@
     height: 80px;
     -webkit-animation: spin 2s linear infinite;
     /* Safari 
-    animation: spin 2s linear infinite;
-} */
+    animation: spin 2s linear infinite;*/
+}
